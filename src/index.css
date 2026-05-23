@@ -103,7 +103,8 @@
   }
 
   body {
-    @apply bg-white text-black font-sans antialiased;
+    @apply bg-white text-black antialiased;
+    font-family: 'Brockmann', 'Inter', sans-serif;
   }
 
   /* Smooth scrolling */
@@ -172,7 +173,7 @@
   }
 
   .handwritten {
-    font-family: 'Caveat', 'Playfair Display', cursive;
+    font-family: 'Brockmann', 'Inter', sans-serif;
   }
   
   .nav-link {
@@ -195,6 +196,53 @@
     animation: cta-shine 3.5s ease-in-out infinite;
     pointer-events: none;
   }
+}
+
+.editorial-page {
+  background: #ecebe7;
+  color: #0b0b0c;
+}
+
+.editorial-page section {
+  border-top: 1px solid rgba(10, 10, 10, 0.08);
+}
+
+.editorial-page h1,
+.editorial-page h2,
+.editorial-page h3 {
+  letter-spacing: -0.03em;
+}
+
+.editorial-kicker {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #d5d2ca;
+  border-radius: 9999px;
+  background: #f3f2ed;
+  padding: 8px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.editorial-marker {
+  background: linear-gradient(transparent 62%, #f2d302 62%);
+  padding: 0 0.1em;
+}
+
+.editorial-page .cta-button {
+  border-radius: 9999px;
+  background: #030307 !important;
+  color: #f8f8f8 !important;
+  border: 1px solid #030307;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.editorial-page .cta-button:hover {
+  filter: brightness(1.06);
 }
 
 .image-scale-in {

@@ -155,7 +155,7 @@ const readinessChecks = [
 const faqs = [
   {
     q: "How is the Wedding Leads Pipeline different from regular agencies?",
-    a: "We focus on booked consultations, not random leads, using a complete couple-to-appointment pipeline that pre-qualifies every enquiry before they reach you.",
+    a: "We focus on qualified wedding enquiries, not random leads, using a complete couple-to-appointment pipeline that pre-qualifies every enquiry before they reach you.",
   },
   {
     q: "How soon can we expect results?",
@@ -312,48 +312,48 @@ const Index = () => {
   const renderCtaNote = (textClass: string, accentClass: string) => (
     <div className={`mt-3 text-center text-xs ${textClass}`}>
       <div className={`font-semibold ${accentClass}`}>Hurry Up Only 3 slots left ....</div>
-      <div>Only for wedding planners &amp; event companies serious about scaling with a structured consultation booking system.</div>
+      <div>Only for wedding planners &amp; event companies serious about scaling with a structured enquiry-to-booking system.</div>
     </div>
   );
 
   return (
-    <div className="bg-white text-slate-900">
+    <div className="editorial-page bg-white text-slate-900">
       <main>
-        <section className="relative overflow-hidden bg-gradient-to-br from-[#0B1534] via-[#0E1F50] to-[#0B3B98] text-white">
+        <section className="relative overflow-hidden bg-[#ecebe7] text-[#0b0b0c]">
           <div className="mx-auto flex min-h-[88vh] max-w-6xl flex-col items-center justify-center gap-6 px-4 py-16 text-center">
             <div className="space-y-6">
-              <div className="mx-auto w-fit rounded-full bg-[#365CF5] px-5 py-2 text-sm font-semibold text-white shadow-lg">
+              <div className="editorial-kicker mx-auto w-fit">
                 Attention Wedding Planners &amp; Event Companies
               </div>
               <h1
-                className="mx-auto max-w-4xl text-4xl font-black leading-tight tracking-tight drop-shadow-[0_6px_18px_rgba(0,0,0,0.45)] sm:text-6xl lg:text-7xl"
+                className="mx-auto max-w-4xl text-4xl font-black leading-[0.96] tracking-tight sm:text-6xl lg:text-7xl"
                 style={{ textWrap: "balance" }}
               >
                 <span className="block">
-                  We help <span className="text-orange-400">Wedding Planners</span> book
+                  We help <span className="editorial-marker">Wedding Planners</span> book
                 </span>
-                <span className="block text-blue-300">15–25+ qualified</span>
-                <span className="block">couple consultations</span>
+                <span className="block">15-25 qualified</span>
+                <span className="block">wedding enquiries</span>
                 <span className="block">per month</span>
                 <span className="block">with our proven</span>
-                <span className="block text-orange-400 sm:whitespace-nowrap">The Wedding Growth System™</span>
+                <span className="block sm:whitespace-nowrap editorial-marker">The Wedding Growth System™</span>
               </h1>
 
               <p className="handwritten text-xl font-semibold text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)] sm:text-2xl"></p>
               
 
               <p
-                className="mx-auto max-w-3xl text-lg font-semibold leading-relaxed text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)] sm:text-xl"
+                className="mx-auto max-w-3xl text-lg font-semibold leading-relaxed text-slate-700 sm:text-xl"
                 style={{ textWrap: "balance" }}
               >
-                <span className="block font-black">No price-shoppers. No ghost enquiries.</span>
+                <span className="block font-black text-[#19191b]">No price-shoppers. No ghost enquiries.</span>
                 <span className="block">
                   Just budget-ready, <span className="font-black">date-confirmed</span>
                 </span>
                 <span className="block">couples booked directly into your calendar.</span>
               </p>
 
-              <div className="mx-auto w-fit rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm font-semibold text-white/90 shadow-sm">
+              <div className="mx-auto w-fit rounded-full border border-[#d5d2ca] bg-[#f3f2ed] px-4 py-2 text-sm font-semibold text-[#222] shadow-sm">
                 Expected revenue impact: ₹10L–₹30L+ per season
               </div>
 
@@ -362,27 +362,27 @@ const Index = () => {
               <div className="flex flex-col items-center gap-3">
                 <button
                   onClick={openForm}
-                  className="cta-button cta-shine w-full max-w-xl bg-gradient-to-r from-orange-500 via-orange-400 to-orange-500 text-xl font-black text-white hover:brightness-95 focus:outline-none focus:ring-4 focus:ring-orange-200"
+                  className="cta-button cta-shine w-full max-w-xl text-xl font-black focus:outline-none focus:ring-4 focus:ring-black/20"
                 >
                   Book Your Call Now
                 </button>
                 
-                {renderCtaNote("text-white/80", "text-orange-300")}
+                {renderCtaNote("text-slate-600", "text-slate-800")}
               </div>
             </div>
           </div>
         </section>
 
-        <section className="bg-[#F8F9FA] py-16">
+        <section className="bg-[#ecebe7] py-16">
           <div className="mx-auto max-w-6xl px-4">
-            <div className="mx-auto max-w-4xl rounded-3xl border border-slate-200 bg-white px-6 py-10 text-center shadow-xl sm:px-10">
-              <div className="mx-auto mb-5 flex w-fit items-center gap-3 rounded-full border border-slate-200 bg-slate-50 px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-slate-500 shadow-sm">
+            <div className="mx-auto max-w-4xl rounded-3xl border border-[#d5d2ca] bg-[#f7f6f2] px-6 py-10 text-center shadow-sm sm:px-10">
+              <div className="editorial-kicker mx-auto mb-5 flex w-fit items-center gap-3">
                 Reality Check
               </div>
               <h2 className="text-3xl font-extrabold sm:text-4xl">
                 Every Couple Planning Their Wedding Is Carrying a Vision They're Afraid to Get Wrong.
               </h2>
-              <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-gradient-to-r from-orange-400 via-orange-300 to-blue-400" />
+              <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-[#f2d302]" />
               <p className="mt-5 text-xl leading-8 text-slate-700">
                 They come with Pinterest boards, family expectations, and a budget they've been saving for years — trusting you to make the most important day of their lives unforgettable.
               </p>
@@ -408,7 +408,7 @@ const Index = () => {
               <div className="mt-8 flex justify-center">
                 <button
                   onClick={openForm}
-                  className="cta-button cta-shine bg-[#0066FF] text-white hover:bg-[#0a58d8]"
+                  className="cta-button cta-shine"
                 >
                   Book Your Call Now
                 </button>
@@ -426,15 +426,15 @@ const Index = () => {
                 return (
                   <div key={item.titlePrefix} className="grid gap-8 md:grid-cols-2 md:items-center">
                     <div className={isReversed ? "md:order-2" : ""}>
-                      <h3 className="text-2xl font-black text-slate-900">
+                      <h3 className="text-2xl font-black text-slate-900 leading-tight">
                         {item.titlePrefix}{" "}
-                        <span className="handwritten text-blue-600">{item.accent}</span>{" "}
+                        <span className="editorial-marker">{item.accent}</span>{" "}
                         {item.titleSuffix}
                       </h3>
                       <p className="mt-4 whitespace-pre-line text-base leading-7 text-slate-700">{item.body}</p>
                     </div>
                     <div className={isReversed ? "md:order-1" : ""}>
-                      <div className={`relative aspect-[4/3] overflow-hidden rounded-2xl bg-gradient-to-br ${item.cardClass} shadow-lg`}>
+                      <div className={`relative aspect-[4/3] overflow-hidden rounded-2xl border border-[#d5d2ca] bg-gradient-to-br ${item.cardClass} shadow-sm`}>
                         <img
                           src={item.image}
                           alt={item.imageAlt}
@@ -458,7 +458,7 @@ const Index = () => {
 
             <div className="mt-12 text-center">
               <h3 className="text-2xl font-black text-slate-900 sm:text-3xl">
-                THIS IS A FULL STACK <span className="text-blue-600">WEDDING BUSINESS-BUILDING SYSTEM.</span>
+                THIS IS A FULL STACK <span className="editorial-marker">WEDDING BUSINESS-BUILDING SYSTEM.</span>
               </h3>
               <p className="mt-4 text-lg text-slate-700">
                 Because wedding decisions aren't made through a single ad. They're shaped by a structured, emotionally intelligent system that transforms online interest into real signed contracts with your company.
@@ -468,7 +468,7 @@ const Index = () => {
             <div className="mt-10 flex justify-center">
               <button
                 onClick={openForm}
-                className="cta-button cta-shine bg-[#0066FF] text-white hover:bg-[#0a58d8]"
+                className="cta-button cta-shine"
               >
                 Book Your Call Now
               </button>
@@ -477,14 +477,14 @@ const Index = () => {
           </div>
         </section>
 
-        <section className="relative overflow-hidden bg-[#F9FBFF] py-16">
+        <section className="relative overflow-hidden bg-[#ecebe7] py-16">
           <div className="pointer-events-none absolute inset-0">
             <div className="absolute -top-24 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-blue-200/40 blur-3xl" />
             <div className="absolute -bottom-24 right-10 h-64 w-64 rounded-full bg-orange-200/40 blur-3xl" />
           </div>
           <div className="relative mx-auto max-w-6xl px-4">
             <div className="mx-auto max-w-3xl text-center">
-              <div className="inline-flex items-center gap-2 rounded-full border border-red-200 bg-red-50 px-4 py-2 text-sm font-semibold text-red-600 shadow-sm">
+              <div className="inline-flex items-center gap-2 rounded-full border border-[#d5d2ca] bg-[#f3f2ed] px-4 py-2 text-sm font-semibold text-[#b42318] shadow-sm">
                 ⚠️ Important
               </div>
               <h2 className="mt-4 text-3xl font-bold text-slate-900 sm:text-4xl">
@@ -499,11 +499,11 @@ const Index = () => {
 
             <div className="mt-10 grid gap-6 lg:grid-cols-3">
               {qualificationBoxes.map((item, idx) => (
-                <div key={item.title} className="rounded-2xl bg-gradient-to-br from-blue-100/70 via-white to-orange-100/70 p-[1px] shadow-lg">
-                  <div className="rounded-2xl bg-white p-8">
+                <div key={item.title} className="rounded-2xl border border-[#d5d2ca] bg-[#f7f6f2] p-[1px] shadow-sm">
+                  <div className="rounded-2xl bg-[#f7f6f2] p-8">
                     <div className="flex items-center justify-between text-xs font-semibold uppercase tracking-[0.2em] text-slate-400">
                       <span>Fit Check</span>
-                      <span className="text-blue-600">0{idx + 1}</span>
+                      <span className="text-[#c23b22]">0{idx + 1}</span>
                     </div>
                     <h3 className="mt-4 text-lg font-semibold text-slate-900">{item.title}</h3>
                     <p className="mt-4 whitespace-pre-line text-slate-700">{item.body}</p>
@@ -515,7 +515,7 @@ const Index = () => {
             <div className="mt-10 flex justify-center">
               <button
                 onClick={openForm}
-                className="cta-button cta-shine bg-[#0066FF] text-white hover:bg-[#0a58d8]"
+                className="cta-button cta-shine"
               >
                 Book Your Call Now
               </button>
@@ -553,19 +553,19 @@ const Index = () => {
 
         
 
-        <section className="bg-white py-16">
+        <section className="bg-[#ecebe7] py-16">
           <div className="mx-auto max-w-6xl px-4">
             <h2 className="text-center text-4xl font-black tracking-tight sm:text-5xl">
-              APPLY FOR THIS <span className="text-blue-600">ONLY IF…</span>
+              APPLY FOR THIS <span className="editorial-marker">ONLY IF…</span>
             </h2>
             <p className="mt-3 text-center text-lg text-slate-700 sm:text-xl">
               We don't care how large your team is. We care how serious you are about growth.
             </p>
             <div className="mx-auto mt-10 grid max-w-4xl gap-4 md:grid-cols-2">
               {readinessChecks.map((item, idx) => (
-                <div key={item} className="rounded-2xl border-2 border-blue-500/40 bg-white p-4 shadow-sm">
+                <div key={item} className="rounded-2xl border border-[#d5d2ca] bg-[#f7f6f2] p-4 shadow-sm">
                   <div className="flex items-start gap-3">
-                    <span className="flex h-9 w-9 items-center justify-center rounded-md bg-blue-600 text-base font-bold text-white">
+                    <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#111] text-base font-bold text-white">
                       {idx + 1}
                     </span>
                     <p className="text-lg font-semibold leading-snug text-slate-900">{item}</p>
@@ -576,7 +576,7 @@ const Index = () => {
             <div className="mt-10 flex justify-center">
               <button
                 onClick={openForm}
-                className="cta-button cta-shine w-full max-w-2xl rounded-xl bg-[#365CF5] text-white hover:bg-[#2746c9]"
+                className="cta-button cta-shine w-full max-w-2xl rounded-xl"
               >
                 Book Your Call Now
               </button>
@@ -585,23 +585,23 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="faq" className="bg-[#0F1A35] py-16 text-white">
+        <section id="faq" className="bg-[#ecebe7] py-16 text-[#111]">
           <div className="mx-auto max-w-5xl px-4">
             <h2 className="text-center text-3xl font-bold sm:text-4xl">Frequently Asked Questions</h2>
             <div className="mt-10 space-y-3">
               {faqs.map((item, idx) => {
                 const isOpen = activeFAQ === idx;
                 return (
-                  <div key={item.q} className="overflow-hidden rounded-xl border border-white/10 bg-white/5">
+                  <div key={item.q} className="overflow-hidden rounded-xl border border-[#d5d2ca] bg-[#f7f6f2]">
                     <button
                       onClick={() => setActiveFAQ(isOpen ? -1 : idx)}
-                      className="flex w-full items-center justify-between px-6 py-4 text-left text-white"
+                      className="flex w-full items-center justify-between px-6 py-4 text-left text-[#111]"
                     >
                       <span className="text-lg font-semibold">{item.q}</span>
                       <span className="text-2xl">{isOpen ? "−" : "+"}</span>
                     </button>
                     {isOpen && (
-                      <div className="px-6 pb-5 text-base leading-7 text-slate-200">{item.a}</div>
+                      <div className="px-6 pb-5 text-base leading-7 text-slate-700">{item.a}</div>
                     )}
                   </div>
                 );
@@ -610,32 +610,32 @@ const Index = () => {
             <div className="mt-10 flex justify-center">
               <button
                 onClick={openForm}
-                className="cta-button cta-shine bg-white text-[#0B1534] hover:shadow-lg"
+                className="cta-button cta-shine"
               >
                 Book Your Call Now
               </button>
             </div>
-            {renderCtaNote("text-white/80", "text-orange-300")}
+            {renderCtaNote("text-slate-600", "text-slate-800")}
           </div>
         </section>
 
-        <section className="bg-gradient-to-br from-[#0B1534] via-[#0E1F50] to-[#0B3B98] py-16 text-white">
+        <section className="bg-[#ecebe7] py-16 text-[#111]">
           <div className="mx-auto max-w-5xl px-4 text-center">
             <h2 className="text-4xl font-bold sm:text-5xl">You're One Step Away From Becoming The Planner Every Couple Remembers</h2>
-            <p className="mt-4 text-xl text-slate-100">
+            <p className="mt-4 text-xl text-slate-700">
               Most wedding companies lose clients not because they lack talent... but because excited, overwhelmed couples never got the clarity, confidence, and guidance they needed to say yes.
               With our system, every couple feels understood, supported, and ready to sign with you.
             </p>
             <div className="mt-8 flex flex-col items-center gap-3">
               <button
                 onClick={openForm}
-                className="cta-button cta-shine w-full max-w-md bg-white text-xl font-semibold text-[#0B1534] hover:shadow-xl"
+                className="cta-button cta-shine w-full max-w-md text-xl font-semibold hover:shadow-xl"
               >
                 Book Your Call Now
               </button>
-              {renderCtaNote("text-white/80", "text-orange-300")}
+              {renderCtaNote("text-slate-600", "text-slate-800")}
               
-              <p className="text-xs italic text-slate-300">
+              <p className="text-xs italic text-slate-500">
                 Your application will be carefully reviewed. If your company isn't a suitable fit, we'll let you know honestly and respectfully.
               </p>
             </div>
