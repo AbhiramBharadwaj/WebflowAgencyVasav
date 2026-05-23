@@ -144,12 +144,12 @@ const qualificationBoxes = [
 ];
 
 const readinessChecks = [
-  "You want more qualified wedding consultations every month without doubling your ad spend.",
-  "Your team struggles to follow up with every enquiry consistently, and you want a system that does it automatically.",
-  "You want a predictable, structured inquiry system instead of depending on referrals and word of mouth.",
-  "You want clarity on exactly where you're losing couples in the enquiry journey.",
-  "You want to improve your enquiry → consultation → signed contract conversions with a proven framework.",
-  "You want a done-for-you system so your business grows even during off-season.",
+  "You want consistent wedding enquiries every month.",
+  "You want high-intent couples instead of random budget shoppers.",
+  "You want a predictable booking system instead of depending only on referrals.",
+  "You want to increase consultation-to-booking conversions.",
+  "You want automated follow-up systems for wedding enquiries.",
+  "You want to scale your event business without chasing leads manually.",
 ];
 
 const faqs = [
