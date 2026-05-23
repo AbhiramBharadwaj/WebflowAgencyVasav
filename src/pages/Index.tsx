@@ -336,7 +336,7 @@ const Index = () => {
                 <span className="block">wedding enquiries</span>
                 <span className="block">per month</span>
                 <span className="block">with our proven</span>
-                <span className="block sm:whitespace-nowrap editorial-marker">The Wedding Growth System™</span>
+                <span className="block sm:whitespace-nowrap editorial-marker"> Wedding Growth System™</span>
               </h1>
 
               <p className="handwritten text-xl font-semibold text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)] sm:text-2xl"></p>
@@ -668,7 +668,7 @@ const Index = () => {
                   <input
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    placeholder="Dr. [Your Name] or [Your Full Name]"
+                    placeholder="[Your Name] or [Your Full Name]"
                     className="w-full rounded-lg border border-slate-200 px-3 py-3 text-sm focus:border-[#0066FF] focus:outline-none"
                   />
                 </label>
