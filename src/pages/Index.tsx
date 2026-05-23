@@ -348,9 +348,9 @@ const Index = () => {
               >
                 <span className="block font-black text-[#19191b]">No price-shoppers. No ghost enquiries.</span>
                 <span className="block">
-                  Just budget-ready, <span className="font-black">date-confirmed</span>
+                  Just budget-ready, <span className="font-black">Just serious couples</span>
                 </span>
-                <span className="block">couples booked directly into your calendar.</span>
+                <span className="block">with confirmed wedding dates and realistic budgets.</span>
               </p>
 
               <div className="mx-auto w-fit rounded-full border border-[#d5d2ca] bg-[#f3f2ed] px-4 py-2 text-sm font-semibold text-[#222] shadow-sm">
