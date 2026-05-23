@@ -12,12 +12,12 @@ type FormData = {
 };
 
 const realityPoints = [
-  "Empty consultation slots despite spending lakhs on ads",
-  "Enquiries that ask only about price, never book",
-  "50-70% no-show rates wasting your team's time",
-  "Random walk-ins with no follow-up system",
-  "Feast-or-famine months (30 consultations one month, 5 the next)",
-  "Agencies that dump low-quality leads and disappear",
+  "Empty consultation slots despite spending on Instagram ads",
+  "Enquiries that only ask for price lists, never commit",
+  "Couples who ghost after one WhatsApp message",
+  "No-shows on scheduled calls wasting your team's time",
+  "Peak season chaos, off-season silence — no consistency",
+  "Agencies that send bulk leads with zero qualification",
 ];
 
 const systemHighlights = [
@@ -26,7 +26,7 @@ const systemHighlights = [
     accent: "We'll Get You Leads",
     titleSuffix: "AGENCY SERVICE.",
     body:
-      "Most agencies dump random Facebook leads into your inbox and disappear. IVF Pipeline System does something different.\n\nWe build a structured patient journey that brings emotionally ready, financially qualified couples straight to your consultation room.",
+      "Most agencies blast your DMs with random Instagram leads and disappear. The Wedding Growth System does something different.\n\nWe build a structured couple journey that brings budget-confirmed, date-set, emotionally-ready couples straight to your consultation table.",
     cardTitle: "Random Leads",
     cardNote: "Inbox chaos + price shoppers",
     cardClass: "from-slate-900 via-slate-800 to-blue-900",
@@ -35,10 +35,10 @@ const systemHighlights = [
   },
   {
     titlePrefix: "THIS IS NOT A",
-    accent: "Run Ads And Hope",
+    accent: "Post Reels And Pray",
     titleSuffix: "PROGRAM.",
     body:
-      "We don't rely on luck, boosted posts, or broad targeting.\n\nWe engineer a complete appointment pipeline using data, psychology, and trust-building touchpoints so every enquiry moves closer to your clinic, step-by-step.",
+      "We don't rely on viral posts, boosted stories, or spray-and-pray targeting.\n\nWe engineer a complete inquiry-to-booking pipeline using data, emotional psychology, and trust-building touchpoints — so every lead moves closer to signing with you, step by step.",
     cardTitle: "Waiting For Results",
     cardNote: "Low intent. Slow follow-up.",
     cardClass: "from-slate-900 via-indigo-900 to-slate-900",
@@ -47,10 +47,10 @@ const systemHighlights = [
   },
   {
     titlePrefix: "THIS IS A FULL-STACK",
-    accent: "Patient-Appointment",
+    accent: "Couple-to-Consultation",
     titleSuffix: "SYSTEM.",
     body:
-      "A complete, end-to-end infrastructure built to help IVF clinics move from unpredictable walk-ins to stable, systemised, high-quality consultations every month — without chasing referrals or discount-driven marketing.",
+      "A complete, end-to-end infrastructure built to help wedding companies move from random WhatsApp enquiries to stable, systemised, high-value consultations every month — without depending on referrals or last-minute discounts.",
     cardTitle: "Systemised Flow",
     cardNote: "Booked consultations, every week.",
     cardClass: "from-slate-900 via-slate-800 to-emerald-900",
@@ -127,67 +127,59 @@ const components = [
 
 const qualificationBoxes = [
   {
-    title: "Deep Clinic Alignment Check",
+    title: "Deep Business Alignment",
     body:
-      "We review whether your clinic's values, ethics, and treatment approach align with our trust-building patient pathway.\n\nSince IVF decisions are emotional and sensitive, we only partner with clinics committed to care, clarity, and ethical communication.",
+      "We review whether your planning style, service quality, and client communication aligns with our trust-building inquiry pathway.\n\nSince wedding decisions are deeply emotional and family-driven, we only partner with planners committed to clarity and honest expectations.",
   },
   {
     title: "Growth Positioning Opportunities",
     body:
-      "We examine your clinic's current visibility, strengths, and differentiation within your market.\n\nIf your positioning is unclear or outdated, conversions suffer.\n\nYou don't need fancy branding — just clarity and a strong treatment message.",
+      "We examine your current visibility, strengths, and what sets you apart in your city's market.\n\nIf your positioning is unclear or undifferentiated, bookings will suffer — you don't need a fancy portfolio, just a clear package and a strong promise.",
   },
   {
     title: "Quality vs. Quantity Focus",
     body:
-      "We prefer clinics that want consistent, meaningful appointments — not low-quality lead dumps or bargain hunters.\n\nIf your focus is long-term growth and real IVF cycle starts, our system will be an excellent fit.\n\nClients remember impact, not just money.",
+      "We prefer planners who want consistent, high-value bookings — not bulk enquiry dumps or budget-only shoppers.\n\nIf your focus is long-term growth and real event contracts, our system will be an excellent fit.",
   },
 ];
 
 const readinessChecks = [
-  "You want more IVF consultations every month without increasing your current ad spend.",
-  "Your team struggles to follow up consistently, and you want a system that does it reliably.",
-  "You want a predictable, structured IVF appointment system instead of random leads.",
-  "You want clarity on exactly where your clinic is losing enquiries in the patient journey.",
-  "You want to improve your enquiry → consultation → walk-in conversions with a proven framework.",
-  "You want a done-for-you system so your clinic grows even when you're not monitoring everything yourself.",
+  "You want more qualified wedding consultations every month without doubling your ad spend.",
+  "Your team struggles to follow up with every enquiry consistently, and you want a system that does it automatically.",
+  "You want a predictable, structured inquiry system instead of depending on referrals and word of mouth.",
+  "You want clarity on exactly where you're losing couples in the enquiry journey.",
+  "You want to improve your enquiry → consultation → signed contract conversions with a proven framework.",
+  "You want a done-for-you system so your business grows even during off-season.",
 ];
 
 const faqs = [
   {
-    q: "How is the IVF Pipeline System different from regular agencies?",
-    a: "We Focus On Booked IVF Consultations, Not Random Leads, Using A Complete Patient-to-Appointment Pipeline That Pre-Qualifies Every Couple Before They Reach You.",
+    q: "How is the Wedding Leads Pipeline different from regular agencies?",
+    a: "We focus on booked consultations, not random leads, using a complete couple-to-appointment pipeline that pre-qualifies every enquiry before they reach you.",
   },
   {
     q: "How soon can we expect results?",
-    a: "Most Clinics Start Receiving Qualified Consultation Bookings Within 7-14 Days Of Launch, With 20-30+ Monthly Appointments By Week 3-4.",
+    a: "(Keep closed — answer on call)",
   },
   {
-    q: "Will you work with other IVF clinics in my city?",
-    a: "No. We Only Work With 1-2 Clinics Per City To Protect Your Market Share And Ensure You're Not Competing With Our Own Clients.",
+    q: "Will you work with other wedding planners in my city?",
+    a: "(Keep closed — exclusivity angle)",
   },
   {
-    q: "What if it doesn't work for my clinic?",
-    a: "We Guarantee 20+ Qualified Appointments In Your First 30 Days, Or We Keep Working At No Additional Cost Until We Hit That Number.",
+    q: "What if it doesn't work for my company?",
+    a: "(Keep closed — your guarantee answer)",
   },
   {
-    q: "Do I need a website or marketing experience?",
-    a: "No. We Build The Complete System For You — Landing Pages, Follow-Up Automation, Calendar Integration — You Just Show Up For Consultations.",
+    q: "Do I need a website or social media presence?",
+    a: "(Keep closed)",
   },
   {
     q: "What type of couples will this attract?",
-    a: "Emotionally Ready, Financially Qualified Couples Who Are Actively Searching For IVF Treatment And Ready To Book Within 30-90 Days.",
-  },
-  {
-    q: "Why is the IVF Pipeline System™ effective?",
-    a: "It's Built On Data From 50+ IVF Clinics, Uses Patient Psychology At Every Step, And Pre-Qualifies Based On Budget, Timeline, And Readiness — Not Just Random Clicks.",
+    a: "(Keep closed)",
   },
   {
     q: "Is there a long-term contract?",
-    a: "We Recommend 90 Days To Fully Optimize Your Pipeline, But We Offer Flexible Options Based On Your Clinic's Needs And Commitment Level.",
-  },
-  {
-    q: "Do you guarantee IVF cycle starts?",
-    a: "We Guarantee Consultation Bookings (20-30+/Month). Cycle Conversions Depend On Your Consultation Quality, Pricing, And Patient Experience.",
+    a: "(Keep closed)",
   },
   
 ];
@@ -197,7 +189,7 @@ const Index = () => {
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [errors, setErrors] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [activeFAQ, setActiveFAQ] = useState(0);
+  const [activeFAQ, setActiveFAQ] = useState(-1);
   const [formData, setFormData] = useState<FormData>({
     name: "",
     id: "",
@@ -267,7 +259,7 @@ const Index = () => {
         status: "New Lead",
         qna_simple: `owner: ${ownerLabel}`,
         whatsapp_message:
-          `*🚨 NEW LEAD ENQUIRY - IVF PIPELINE SYSTEM!*\n\n` +
+          `*🚨 NEW LEAD ENQUIRY - THE WEDDING GROWTH SYSTEM!*\n\n` +
           `🔥 Status: New Lead\n` + 
           `🕒 Received Time: ${receivedTime}\n` +
           `👤 Name: ${formData.name.trim()}\n` +
@@ -320,7 +312,7 @@ const Index = () => {
   const renderCtaNote = (textClass: string, accentClass: string) => (
     <div className={`mt-3 text-center text-xs ${textClass}`}>
       <div className={`font-semibold ${accentClass}`}>Hurry Up Only 3 slots left ....</div>
-      <div>Only for IVF clinics &amp; fertility centers serious about scaling with a structured appointment system.</div>
+      <div>Only for wedding planners &amp; event companies serious about scaling with a structured consultation booking system.</div>
     </div>
   );
 
@@ -331,18 +323,20 @@ const Index = () => {
           <div className="mx-auto flex min-h-[88vh] max-w-6xl flex-col items-center justify-center gap-6 px-4 py-16 text-center">
             <div className="space-y-6">
               <div className="mx-auto w-fit rounded-full bg-[#365CF5] px-5 py-2 text-sm font-semibold text-white shadow-lg">
-                Attention IVF Clinic Owners
+                Attention Wedding Planners &amp; Event Companies
               </div>
               <h1
                 className="mx-auto max-w-4xl text-4xl font-black leading-tight tracking-tight drop-shadow-[0_6px_18px_rgba(0,0,0,0.45)] sm:text-6xl lg:text-7xl"
                 style={{ textWrap: "balance" }}
               >
                 <span className="block">
-                  We help <span className="text-orange-400">IVF CLINICS</span> book{" "}
-                  <span className="text-blue-300">20–30+</span> qualified consultations per month
+                  We help <span className="text-orange-400">Wedding Planners</span> book
                 </span>
+                <span className="block text-blue-300">15–25+ qualified</span>
+                <span className="block">couple consultations</span>
+                <span className="block">per month</span>
                 <span className="block">with our proven</span>
-                <span className="block text-orange-400 sm:whitespace-nowrap">IVF Pipeline System</span>
+                <span className="block text-orange-400 sm:whitespace-nowrap">The Wedding Growth System™</span>
               </h1>
 
               <p className="handwritten text-xl font-semibold text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)] sm:text-2xl"></p>
@@ -352,15 +346,15 @@ const Index = () => {
                 className="mx-auto max-w-3xl text-lg font-semibold leading-relaxed text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)] sm:text-xl"
                 style={{ textWrap: "balance" }}
               >
-                <span className="block font-black">No random leads. No tire-kickers.</span>
+                <span className="block font-black">No price-shoppers. No ghost enquiries.</span>
                 <span className="block">
-                  Just emotionally-ready, <span className="font-black">financially-qualified</span>
+                  Just budget-ready, <span className="font-black">date-confirmed</span>
                 </span>
                 <span className="block">couples booked directly into your calendar.</span>
               </p>
 
               <div className="mx-auto w-fit rounded-full border border-white/30 bg-white/10 px-4 py-2 text-sm font-semibold text-white/90 shadow-sm">
-                Expected revenue impact: ₹15L+ per month
+                Expected revenue impact: ₹10L–₹30L+ per season
               </div>
 
              
@@ -386,18 +380,18 @@ const Index = () => {
                 Reality Check
               </div>
               <h2 className="text-3xl font-extrabold sm:text-4xl">
-                Every Couple Who Walks Into Your Clinic Is Carrying a Dream They're Afraid to Lose.
+                Every Couple Planning Their Wedding Is Carrying a Vision They're Afraid to Get Wrong.
               </h2>
               <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-gradient-to-r from-orange-400 via-orange-300 to-blue-400" />
               <p className="mt-5 text-xl leading-8 text-slate-700">
-                They arrive with hope in their eyes and fear in their hearts, trusting you with the dream they hold closest to their soul.
+                They come with Pinterest boards, family expectations, and a budget they've been saving for years — trusting you to make the most important day of their lives unforgettable.
               </p>
               <p className="mt-4 text-xl leading-8 text-slate-700">
-                While other agencies chase numbers, we focus on the human journey — guiding each couple gently from their first moment of courage to the moment they walk into your clinic feeling safe, seen, and supported.
+                While other agencies chase follower counts, we focus on the booking journey — guiding each couple from their first search to the moment they sit across from you, ready to sign.
               </p>
 
               <div className="mt-8 space-y-3 text-center text-lg leading-8 text-slate-700">
-                <p className="text-lg font-bold text-slate-700">But here's the reality most IVF clinic owners face:</p>
+                <p className="text-lg font-bold text-slate-700">But here's the reality most wedding planners face:</p>
                 <div className="mx-auto flex max-w-2xl flex-col items-center gap-2">
                   {realityPoints.map((item) => (
                     <div
@@ -423,7 +417,7 @@ const Index = () => {
             </div>
 
             <div className="mt-12 text-center">
-              <h3 className="text-2xl font-bold uppercase tracking-wide text-slate-800">The IVF Pipeline System™</h3>
+              <h3 className="text-2xl font-bold uppercase tracking-wide text-slate-800">The Wedding Growth System</h3>
             </div>
 
             <div className="mt-8 space-y-12">
@@ -464,10 +458,10 @@ const Index = () => {
 
             <div className="mt-12 text-center">
               <h3 className="text-2xl font-black text-slate-900 sm:text-3xl">
-                THIS IS A FULL STACK <span className="text-blue-600">IVF BUSINESS-BUILDING SYSTEM.</span>
+                THIS IS A FULL STACK <span className="text-blue-600">WEDDING BUSINESS-BUILDING SYSTEM.</span>
               </h3>
               <p className="mt-4 text-lg text-slate-700">
-                Because fertility decisions aren’t made through casual ads. They’re shaped by a structured, emotionally intelligent system that transforms online interest into real appointments with your clinic.
+                Because wedding decisions aren't made through a single ad. They're shaped by a structured, emotionally intelligent system that transforms online interest into real signed contracts with your company.
               </p>
             </div>
 
@@ -494,12 +488,12 @@ const Index = () => {
                 ⚠️ Important
               </div>
               <h2 className="mt-4 text-3xl font-bold text-slate-900 sm:text-4xl">
-                We're Extremely Selective About Which IVF Clinics We Work With
+                We're Extremely Selective About Which Wedding Companies We Work With
               </h2>
-              <p className="mt-3 text-lg text-slate-700">Currently, We Only Accept Clinics That Meet Our Top 10% Standards</p>
+              <p className="mt-3 text-lg text-slate-700">Currently, We Only Accept Planners That Meet Our Top 10% Standards</p>
               <p className="mt-3 text-base text-slate-600">
-                Predictable IVF growth only works when we partner with clinics who are serious about patient care and system-driven results.
-                This is how we evaluate if your clinic is the right fit:
+                Predictable wedding growth only works when we partner with planners who are serious about client experience and system-driven results.
+                This is how we evaluate fit:
               </p>
             </div>
 
@@ -565,7 +559,7 @@ const Index = () => {
               APPLY FOR THIS <span className="text-blue-600">ONLY IF…</span>
             </h2>
             <p className="mt-3 text-center text-lg text-slate-700 sm:text-xl">
-              We don't care how big your clinic is. We care how committed you are. If you want predictable growth, we have the system to ignite it.
+              We don't care how large your team is. We care how serious you are about growth.
             </p>
             <div className="mx-auto mt-10 grid max-w-4xl gap-4 md:grid-cols-2">
               {readinessChecks.map((item, idx) => (
@@ -627,10 +621,10 @@ const Index = () => {
 
         <section className="bg-gradient-to-br from-[#0B1534] via-[#0E1F50] to-[#0B3B98] py-16 text-white">
           <div className="mx-auto max-w-5xl px-4 text-center">
-            <h2 className="text-4xl font-bold sm:text-5xl">You're One Step Away From Becoming The Clinic That Gives Hope a Real Chance</h2>
+            <h2 className="text-4xl font-bold sm:text-5xl">You're One Step Away From Becoming The Planner Every Couple Remembers</h2>
             <p className="mt-4 text-xl text-slate-100">
-              Most clinics lose couples not because they lack expertise... but because worried, emotional families never get the clarity, confidence, and guidance they desperately need.
-              With our system, every couple feels supported, understood, and ready to take their next step with you.
+              Most wedding companies lose clients not because they lack talent... but because excited, overwhelmed couples never got the clarity, confidence, and guidance they needed to say yes.
+              With our system, every couple feels understood, supported, and ready to sign with you.
             </p>
             <div className="mt-8 flex flex-col items-center gap-3">
               <button
@@ -642,7 +636,7 @@ const Index = () => {
               {renderCtaNote("text-white/80", "text-orange-300")}
               
               <p className="text-xs italic text-slate-300">
-                Your application will be carefully reviewed. If your clinic isn't a suitable fit, we'll let you know honestly and respectfully.
+                Your application will be carefully reviewed. If your company isn't a suitable fit, we'll let you know honestly and respectfully.
               </p>
             </div>
           </div>
@@ -699,7 +693,7 @@ const Index = () => {
                 </label>
 
                 <div className="space-y-3 rounded-lg bg-slate-50 p-4">
-                  <div className="text-sm font-semibold text-slate-800">Are you the owner of IVF clinic / fertility center ?*</div>
+                  <div className="text-sm font-semibold text-slate-800">Are you the owner or decision-maker of a wedding planning / event management company?*</div>
                   <div className="grid gap-3 md:grid-cols-2">
                     {[
                       { label: "✅ Yes", value: "yes" },
@@ -719,7 +713,7 @@ const Index = () => {
                   </div>
                   {formData.owner === "no" && (
                     <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
-                      Our system/program/service is not applicable to you at this moment, thanks for your time.
+                      This program is designed for business owners. If you're a team member, please share this with your founder.
                     </div>
                   )}
                 </div>
