@@ -159,27 +159,27 @@ const faqs = [
   },
   {
     q: "How soon can we expect results?",
-    a: "(Keep closed — answer on call)",
+    a: "Most planners start seeing qualified enquiries in 1-2 weeks, depending on offer clarity, ad readiness, and response speed.",
   },
   {
     q: "Will you work with other wedding planners in my city?",
-    a: "(Keep closed — exclusivity angle)",
+    a: "Usually we work with one planner per local area and service category to avoid overlap and protect lead quality.",
   },
   {
     q: "What if it doesn't work for my company?",
-    a: "(Keep closed — your guarantee answer)",
+    a: "If results are off-track, we diagnose quickly, adjust targeting and messaging, and improve the funnel before scaling.",
   },
   {
     q: "Do I need a website or social media presence?",
-    a: "(Keep closed)",
+    a: "No full website is required. A basic profile and clear service details are enough to start the pipeline.",
   },
   {
     q: "What type of couples will this attract?",
-    a: "(Keep closed)",
+    a: "Primarily serious couples actively planning their wedding and looking for trusted planners, not cold or random traffic.",
   },
   {
     q: "Is there a long-term contract?",
-    a: "(Keep closed)",
+    a: "No long lock-in by default. We start with a clear plan, review performance regularly, and continue based on results.",
   },
   
 ];
