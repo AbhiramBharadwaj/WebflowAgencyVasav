@@ -2,7 +2,6 @@ import React, { useEffect, useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import randomLeadsImg from "@/gallery/randomLeads.jpeg";
 import waitingResultsImg from "@/gallery/WaitingForResults.jpeg";
-import systemizedFlowImg from "@/gallery/SystemizedFlow.jpeg";
 
 type FormData = {
   name: string;
@@ -44,18 +43,6 @@ const systemHighlights = [
     cardClass: "from-slate-900 via-indigo-900 to-slate-900",
     image: waitingResultsImg,
     imageAlt: "Waiting for results",
-  },
-  {
-    titlePrefix: "THIS IS A FULL-STACK",
-    accent: "Couple-to-Consultation",
-    titleSuffix: "SYSTEM.",
-    body:
-      "A complete, end-to-end infrastructure built to help wedding companies move from random WhatsApp enquiries to stable, systemised, high-value consultations every month — without depending on referrals or last-minute discounts.",
-    cardTitle: "Systemised Flow",
-    cardNote: "Booked consultations, every week.",
-    cardClass: "from-slate-900 via-slate-800 to-emerald-900",
-    image: systemizedFlowImg,
-    imageAlt: "Systemized flow in company",
   },
 ];
 
