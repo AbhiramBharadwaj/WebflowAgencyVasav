@@ -198,7 +198,7 @@ const Index = () => {
   });
   const sheetsWebhookUrl =
     "https://script.google.com/macros/s/AKfycbwOiA3f3FAlMbl66C_y7EoFLgU7B4Ogb8c4E2t5mbF0QdtPlOgf4AVZLEJrEJr85X2s/exec";
-  const webhookUrl = import.meta.env.VITE_LEAD_WEBHOOK_URL || "/api/lead";
+  const webhookUrl = "/api/lead";
   console.log("Webhook env:", webhookUrl);
 
   useEffect(() => {

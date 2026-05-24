@@ -6,7 +6,7 @@ export default async function handler(req, res) {
 
   try {
     const n8nUrl =
-      process.env.N8N_WEBHOOK_URL || "https://n8n.autonetlabs.com/webhook/lead-notify";
+      process.env.N8N_WEBHOOK_URL || "https://n8n.autonetlabs.com/webhook/39253306-1600-4b8e-8ee1-8ead5f7e5924";
     if (!n8nUrl) {
       res.status(500).send("Missing N8N_WEBHOOK_URL");
       return;
