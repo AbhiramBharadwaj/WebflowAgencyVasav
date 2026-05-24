@@ -325,7 +325,7 @@ const Index = () => {
                 style={{ textWrap: "balance" }}
               >
                 <span className="block">
-                  We help <span className="editorial-marker">Wedding Planners</span> book
+                  We help <span className="editorial-marker">Wedding Planners</span> get
                 </span>
                 <span className="block">15-25 qualified</span>
                 <span className="block">wedding enquiries</span>
