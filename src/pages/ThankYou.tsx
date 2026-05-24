@@ -12,7 +12,7 @@ const ThankYou = () => {
 
     if (typeof (window as any).fbq === "function") {
       (window as any).fbq("track", "CompleteRegistration", {
-        content_name: "IVF Consultation",
+        content_name: "Wedding Strategy Call",
         status: "Booked",
       });
     }
@@ -34,7 +34,7 @@ const ThankYou = () => {
             </div>
             <h1 className="text-4xl font-black sm:text-5xl">Appointment Confirmed</h1>
             <p className="mt-4 text-lg text-slate-100 sm:text-xl">
-              Your call is confirmed. We’ll review your details and come prepared with a plan tailored to your clinic.
+              Your call is confirmed. We’ll review your details and come prepared with a plan tailored to your company.
             </p>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
@@ -69,13 +69,13 @@ const ThankYou = () => {
                 <div className="text-center">
                   <div className="text-base font-semibold text-white">Abhiram</div>
                   <div className="mt-1 text-base font-semibold uppercase tracking-[0.2em] text-white/70">
-                    IVF growth strategist
+                    wedding growth strategist
                   </div>
                   <p className="mt-3 max-w-2xl text-lg leading-7 text-slate-100">
-                    Hi, I'm Abhiram. I've worked closely with IVF clinics to turn scattered enquiries into consistent,
-                    high-intent consultation bookings. I focus on patient-first messaging, ethical follow-ups, and
-                    data-backed funnel systems so clinics can build trust while growing predictably. Expect a warm,
-                    practical conversation centered on your clinic's goals and what will genuinely help your patients.
+                    Hi, I'm Abhiram. I've worked closely with wedding planning companies to turn scattered enquiries into consistent,
+                    high-intent enquiry bookings. I focus on client-first messaging, ethical follow-ups, and
+                    data-backed funnel systems so companies can build trust while growing predictably. Expect a warm,
+                    practical conversation centered on your company's goals and what will genuinely help your clients.
                   </p>
                 </div>
               </div>

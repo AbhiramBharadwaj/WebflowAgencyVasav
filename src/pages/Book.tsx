@@ -4,7 +4,7 @@ import Cal, { getCalApi } from "@calcom/embed-react";
 const Book = () => {
   useEffect(() => {
     (async function () {
-      const cal = await getCalApi({ namespace: "30min" });
+      const cal = await getCalApi({ namespace: "the-wedding-growth-system-30-min" });
       cal("ui", {
         theme: "light",
         cssVarsPerTheme: { dark: { "cal-brand": "#ffdd00" } },
@@ -44,8 +44,8 @@ const Book = () => {
         </div>
         <div className="h-[720px] w-full overflow-hidden rounded-2xl bg-white shadow-sm">
           <Cal
-            namespace="30min"
-            calLink="autonetlabs/30min"
+            namespace="the-wedding-growth-system-30-min"
+            calLink="autonetlabs/the-wedding-growth-system-30-min"
             style={{ width: "100%", height: "100%", overflow: "scroll" }}
             config={{ layout: "month_view", theme: "light" }}
           />

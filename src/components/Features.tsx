@@ -59,7 +59,7 @@ const Features = () => {
           See the Difference Automation Makes
         </h2>
         <p className="section-subtitle mb-12 max-w-3xl mx-auto">
-          Here’s how real clinics and teams transformed their operations using
+          Here’s how real companies and teams transformed their operations using
           our automation and AI systems.
         </p>
 

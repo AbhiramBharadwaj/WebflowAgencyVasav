@@ -73,7 +73,7 @@ const HowItWorks = () => {
   ];
 
   useEffect(() => {
-    // Auto-cycle through steps
+    // Auto-booking cycle through steps
     const interval = setInterval(() => {
       setActiveStep((prev) => (prev + 1) % stepsData.length);
     }, 5000);

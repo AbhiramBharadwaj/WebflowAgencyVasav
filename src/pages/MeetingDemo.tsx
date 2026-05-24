@@ -6,44 +6,44 @@ import systemizedFlowImg from "@/gallery/SystemizedFlow.jpeg";
 
 const realityPoints = [
   "Months or years of trying without success",
-  "Uncertainty about IVF, IUI, or next steps",
+  "Uncertainty about wedding, event planning, or next steps",
   "Emotional stress and feeling alone in the process",
-  "Concerns about cost and success rates",
-  "Fear of procedures or side effects",
-  "Need for a trusted fertility specialist to guide you",
+  "Concerns about cost and booking consistency",
+  "Fear of pricing or timelines",
+  "Need for a trusted wedding growth specialist to guide you",
 ];
 
 const systemHighlights = [
   {
     titlePrefix: "PERSONALIZED",
-    accent: "IVF CARE",
+    accent: "wedding CARE",
     titleSuffix: "FOR EVERY COUPLE.",
     body:
-      "At MotherHood, Dr. Vinay designs protocols based on your medical history, age, and goals.\n\nExpect clear guidance, transparent options, and a plan you understand.",
+      "At Wedding Growth, Growth Strategist designs protocols based on your business context, age, and goals.\n\nExpect clear guidance, transparent options, and a plan you understand.",
     cardTitle: "Personalized Protocols",
     cardNote: "Tailored for your journey.",
     cardClass: "from-slate-900 via-slate-800 to-blue-900",
     image: randomLeadsImg,
-    imageAlt: "Personalized IVF care",
+    imageAlt: "Personalized growth support",
   },
   {
     titlePrefix: "ADVANCED",
     accent: "LAB TECHNOLOGY",
     titleSuffix: "WITH ETHICAL PRACTICE.",
     body:
-      "We use modern IVF techniques such as ICSI, PGT, and blastocyst culture while prioritizing safety, comfort, and transparency.",
+      "We use modern wedding techniques such as luxury planning, PGT, and blastocyst culture while prioritizing safety, comfort, and transparency.",
     cardTitle: "Advanced Lab",
     cardNote: "Modern, careful, precise.",
     cardClass: "from-slate-900 via-indigo-900 to-slate-900",
     image: waitingResultsImg,
-    imageAlt: "Advanced IVF lab care",
+    imageAlt: "Advanced wedding workflow care",
   },
   {
     titlePrefix: "COMPASSIONATE",
     accent: "SUPPORT",
     titleSuffix: "AT EVERY STEP.",
     body:
-      "From your first consultation to pregnancy testing, our team provides counseling, check-ins, and 24/7 guidance so you feel supported and informed.",
+      "From your first consultation to client onboarding, our team provides strategy, check-ins, and 24/7 guidance so you feel supported and informed.",
     cardTitle: "Supportive Care",
     cardNote: "Guidance you can trust.",
     cardClass: "from-slate-900 via-slate-800 to-emerald-900",
@@ -55,27 +55,27 @@ const systemHighlights = [
 const testimonials = [
   {
     quote:
-      "After years of trying, we finally felt understood. Dr. Vinay explained every step clearly and gave us hope again.",
+      "After years of trying, we finally felt understood. Growth Strategist explained every step clearly and gave us hope again.",
     name: "Meera & Arjun",
-    title: "Banglore",
+    title: "Bangalore",
   },
   {
     quote:
       "The care felt personal, not rushed. The team guided us with patience and we always knew what to expect next.",
     name: "Ritu & Karan",
-    title: "Banglore",
+    title: "Bangalore",
   },
   {
     quote:
-      "We were worried about cost and procedures, but the transparency made everything easier. Highly recommend MotherHood.",
+      "We were worried about cost and services, but the transparency made everything easier. Highly recommend Wedding Growth.",
     name: "Neha & Vikram",
-    title: "Banglore",
+    title: "Bangalore",
   },
   {
     quote:
-      "Dr. Vinay treated us like family. The emotional support mattered as much as the medical care.",
+      "Growth Strategist treated us like family. The emotional support mattered as much as the planning support.",
     name: "Isha & Rahul",
-    title: "Banglore",
+    title: "Bangalore",
   },
 ];
 
@@ -84,7 +84,7 @@ const components = [
     icon: "🎯",
     title: "Comprehensive Fertility Evaluation",
     body:
-      "Thorough testing and medical review to understand the root cause of infertility and design the right plan.",
+      "Thorough testing and medical review to understand the root cause of low conversions and design the right plan.",
   },
   {
     icon: "📄",
@@ -102,19 +102,19 @@ const components = [
     icon: "✅",
     title: "Personalized Treatment Plans",
     body:
-      "Every plan is tailored to your age, history, and fertility goals.",
+      "Every plan is tailored to your age, history, and business growth goals.",
   },
   {
     icon: "📅",
-    title: "Modern IVF Lab",
+    title: "Modern wedding Lab",
     body:
-      "State-of-the-art lab practices including ICSI, PGT, and blastocyst culture.",
+      "State-of-the-art workflow practices including luxury planning, PGT, and blastocyst culture.",
   },
   {
     icon: "📊",
     title: "Post-Transfer Monitoring",
     body:
-      "Careful monitoring after embryo transfer with timely follow-ups and support.",
+      "Careful monitoring after proposal stage with timely follow-ups and support.",
   },
 ];
 
@@ -122,61 +122,61 @@ const qualificationBoxes = [
   {
     title: "Ethical, Patient-First Care",
     body:
-      "We prioritize honesty, safety, and clarity at every step of the IVF process.",
+      "We prioritize honesty, safety, and clarity at every step of the wedding process.",
   },
   {
     title: "Advanced Technology, Trusted Results",
     body:
-      "Modern lab methods combined with careful, individualized treatment plans.",
+      "Modern workflow methods combined with careful, individualized planning plans.",
   },
   {
     title: "Support Beyond Treatment",
     body:
-      "Emotional counseling and ongoing guidance for couples and families.",
+      "Emotional strategy and ongoing guidance for couples and couples.",
   },
 ];
 
 const readinessChecks = [
   "You have been trying to conceive for 12+ months without success.",
-  "You want a clear fertility evaluation and next-step guidance.",
-  "You are considering IVF, IUI, or advanced fertility treatment options.",
+  "You want a clear pipeline evaluation and next-step guidance.",
+  "You are considering wedding, event planning, or advanced planning packages.",
   "You want transparent costs and realistic success expectations.",
-  "You are ready to meet a trusted fertility specialist in Banglore.",
-  "You want compassionate support for both partners throughout treatment.",
+  "You are ready to meet a trusted wedding growth specialist in Bangalore.",
+  "You want compassionate support for both partners throughout planning.",
 ];
 
 const faqs = [
   {
-    q: "What is the success rate of IVF at MotherHood?",
-    a: "Success rates vary by age and medical history. During your consultation, Dr. Vinay will review your case and share realistic expectations for your situation.",
+    q: "What is the success rate of wedding at Wedding Growth?",
+    a: "Success rates vary by age and business context. During your consultation, Growth Strategist will review your case and share realistic expectations for your situation.",
   },
   {
-    q: "How much does IVF cost?",
-    a: "IVF packages are discussed transparently during consultation. We provide clear cost breakdowns and can share EMI options if needed.",
+    q: "How much does wedding cost?",
+    a: "wedding packages are discussed transparently during consultation. We provide clear cost breakdowns and can share EMI options if needed.",
   },
   {
-    q: "Is IVF painful?",
+    q: "Is wedding painful?",
     a: "Most steps are not painful. Injections may cause mild discomfort, and egg retrieval is done under light sedation.",
   },
   {
-    q: "How long does an IVF cycle take?",
-    a: "A typical cycle takes 4–6 weeks from start of medication to embryo transfer, followed by a 10–14 day wait for pregnancy testing.",
+    q: "How long does an client booking cycle take?",
+    a: "A typical booking cycle takes 4–6 weeks from start of first enquiry to signed booking, depending on package and decision timelines.",
   },
   {
     q: "Do you accept insurance?",
-    a: "Coverage varies by provider. Our team can help you understand what your policy includes.",
+    a: "Coverage varies by provider. Our team can help you understand what your coverage includes.",
   },
   {
-    q: "What if IVF doesn't work the first time?",
-    a: "Many couples need more than one cycle. We review the results, adjust the plan, and guide you on next steps.",
+    q: "What if wedding doesn't work the first time?",
+    a: "Many couples need more than one booking cycle. We review the results, adjust the plan, and guide you on next steps.",
   },
   {
     q: "Are there side effects?",
-    a: "IVF medications can cause temporary effects like bloating or mood changes. Serious complications are rare and monitored closely.",
+    a: "wedding process steps can cause temporary effects like bloating or mood changes. Serious complications are rare and monitored closely.",
   },
   {
     q: "How do we get started?",
-    a: "Book a consultation with Dr. Vinay. We'll review your history, answer questions, and outline the best treatment path.",
+    a: "Book a consultation with Growth Strategist. We'll review your history, answer questions, and outline the best planning path.",
   },
   
 ];
@@ -191,8 +191,8 @@ const Index = () => {
 
   const renderCtaNote = (textClass: string, accentClass: string) => (
     <div className={`mt-3 text-center text-xs ${textClass}`}>
-      <div className={`font-semibold ${accentClass}`}>Limited consultation slots this week.</div>
-      <div>Private, confidential guidance with MotherHood in Banglore.</div>
+      <div className={`font-semibold ${accentClass}`}>Limited strategy call slots this week.</div>
+      <div>Private, confidential guidance with Wedding Growth in Bangalore.</div>
     </div>
   );
 
@@ -203,17 +203,17 @@ const Index = () => {
           <div className="mx-auto flex min-h-[88vh] max-w-6xl flex-col items-center justify-center gap-6 px-4 py-16 text-center">
             <div className="space-y-6">
               <div className="mx-auto w-fit rounded-full bg-[#365CF5] px-5 py-2 text-sm font-semibold text-white shadow-lg">
-                MotherHood, Banglore
+                Wedding Growth, Bangalore
               </div>
               <h1
                 className="mx-auto max-w-4xl text-4xl font-black leading-tight tracking-tight drop-shadow-[0_6px_18px_rgba(0,0,0,0.45)] sm:text-6xl lg:text-7xl"
                 style={{ textWrap: "balance" }}
               >
-                <span className="block">Struggling to Conceive? You're Not Alone.</span>
+                <span className="block">Struggling to Book More Weddings? You're Not Stuck.</span>
                 <span className="block">
-                  MotherHood in <span className="text-blue-300">Banglore</span> offers advanced care
+                  Wedding Growth in <span className="text-blue-300">Bangalore</span> offers advanced care
                 </span>
-                <span className="block text-orange-400 sm:whitespace-nowrap">with Dr. Vinay.</span>
+                <span className="block text-orange-400 sm:whitespace-nowrap">with Growth Strategist.</span>
               </h1>
 
               <p className="handwritten text-xl font-semibold text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)] sm:text-2xl"></p>
@@ -223,7 +223,7 @@ const Index = () => {
                 className="mx-auto max-w-3xl text-lg font-semibold leading-relaxed text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)] sm:text-xl"
                 style={{ textWrap: "balance" }}
               >
-                <span className="block font-black">Compassionate, ethical, and patient-first IVF care.</span>
+                <span className="block font-black">Compassionate, ethical, and client-first growth support.</span>
                 <span className="block">Clear guidance, advanced technology, and support at every step.</span>
                 <span className="block">Book your consultation and start your journey today.</span>
               </p>
@@ -262,7 +262,7 @@ const Index = () => {
                 We know the emotional weight of trying month after month. Our team listens, explains, and supports you with care.
               </p>
               <p className="mt-4 text-xl leading-8 text-slate-700">
-                At MotherHood, we focus on the human journey — guiding you with clarity, compassion, and trusted medical expertise.
+                At Wedding Growth, we focus on the human journey — guiding you with clarity, compassion, and trusted medical expertise.
               </p>
 
               <div className="mt-8 space-y-3 text-center text-lg leading-8 text-slate-700">
@@ -292,7 +292,7 @@ const Index = () => {
             </div>
 
             <div className="mt-12 text-center">
-              <h3 className="text-2xl font-bold uppercase tracking-wide text-slate-800">MotherHood Care Approach</h3>
+              <h3 className="text-2xl font-bold uppercase tracking-wide text-slate-800">Wedding Growth Care Approach</h3>
             </div>
 
             <div className="mt-8 space-y-12">
@@ -333,10 +333,10 @@ const Index = () => {
 
             <div className="mt-12 text-center">
               <h3 className="text-2xl font-black text-slate-900 sm:text-3xl">
-                A COMPLETE <span className="text-blue-600">IVF CARE JOURNEY.</span>
+                A COMPLETE <span className="text-blue-600">wedding CARE JOURNEY.</span>
               </h3>
               <p className="mt-4 text-lg text-slate-700">
-                From the first consultation to ongoing support, we guide you with clarity, compassion, and trusted medical care.
+                From the first consultation to ongoing support, we guide you with clarity, compassion, and trusted planning support.
               </p>
             </div>
 
@@ -358,17 +358,17 @@ const Index = () => {
               <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
                 <div>
                   <div className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500">Clinic Details</div>
-                  <h2 className="mt-3 text-3xl font-bold text-slate-900">MotherHood — Banglore</h2>
+                  <h2 className="mt-3 text-3xl font-bold text-slate-900">Wedding Growth — Bangalore</h2>
                   <div className="mt-4 space-y-3 text-base text-slate-700">
                     <div>
-                      <div>MotherHood</div>
+                      <div>Wedding Growth</div>
                     </div>
                     <div>
-                      <div>Banglore</div>
+                      <div>Bangalore</div>
                     </div>
                     <div>
-                      <div className="font-semibold text-slate-900">Lead clinician</div>
-                      <div>Dr. Vinay, Fertility Specialist</div>
+                      <div className="font-semibold text-slate-900">Lead companyian</div>
+                      <div>Growth Strategist, Fertility Specialist</div>
                     </div>
                     <div>
                       <div className="font-semibold text-slate-900">Phone</div>
@@ -380,7 +380,7 @@ const Index = () => {
                     </div>
                     <div>
                       <div className="font-semibold text-slate-900">Address</div>
-                      <div>Banglore</div>
+                      <div>Bangalore</div>
                     </div>
                   </div>
                 </div>
@@ -403,13 +403,13 @@ const Index = () => {
                 Our Promise
               </div>
               <h2 className="mt-4 text-3xl font-bold text-slate-900 sm:text-4xl">
-                Ethical, Advanced, and Patient-Centered IVF Care
+                Ethical, Advanced, and Patient-Centered wedding Care
               </h2>
               <p className="mt-3 text-lg text-slate-700">
                 We focus on transparency, safety, and compassion for every couple who walks through our doors.
               </p>
               <p className="mt-3 text-base text-slate-600">
-                These care pillars guide how we support you throughout your fertility journey:
+                These care pillars guide how we support you throughout your wedding planning journey:
               </p>
             </div>
 
@@ -442,9 +442,9 @@ const Index = () => {
 
         {/* <section className="bg-gradient-to-br from-[#0B1534] via-[#0E1F50] to-[#0B3B98] py-16 text-white">
           <div className="mx-auto max-w-6xl px-4">
-            <h2 className="text-center text-3xl font-bold sm:text-4xl">Real IVF Clinics. Real Results.</h2>
+            <h2 className="text-center text-3xl font-bold sm:text-4xl">Real wedding Clinics. Real Results.</h2>
             <p className="mt-3 text-center text-base text-slate-200">
-              Hear directly from families who found support at MotherHood.
+              Hear directly from couples who found support at Wedding Growth.
             </p>
             <div className="mt-10 grid gap-6 md:grid-cols-2">
               {testimonials.map((item) => (
@@ -475,7 +475,7 @@ const Index = () => {
               You May Be Ready <span className="text-blue-600">If…</span>
             </h2>
             <p className="mt-3 text-center text-lg text-slate-700 sm:text-xl">
-              These signs can help you decide whether it's the right time to speak with a fertility specialist.
+              These signs can help you decide whether it's the right time to speak with a wedding growth specialist.
             </p>
             <div className="mx-auto mt-10 grid max-w-4xl gap-4 md:grid-cols-2">
               {readinessChecks.map((item, idx) => (
@@ -539,7 +539,7 @@ const Index = () => {
           <div className="mx-auto max-w-5xl px-4 text-center">
             <h2 className="text-4xl font-bold sm:text-5xl">You're One Step Away From Starting Your Family</h2>
             <p className="mt-4 text-xl text-slate-100">
-              At MotherHood, we guide you with clarity, compassion, and proven care so you can move forward with confidence.
+              At Wedding Growth, we guide you with clarity, compassion, and proven care so you can move forward with confidence.
             </p>
             <div className="mt-8 flex flex-col items-center gap-3">
               <button

@@ -11,21 +11,21 @@ const DetailsSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {[
             {
-              name: "Dr. Meera N.",
-              clinic: "SmileCraft Dental",
-              text: "We stopped missing calls completely. Our patients actually compliment the voice agent!",
+              name: " Meera N.",
+              company: "SmileCraft Dental",
+              text: "We stopped missing calls completely. Our clients actually compliment the voice agent!",
               photo: "/people/meera.jpg"
             },
             {
-              name: "Dr. Ajay S.",
-              clinic: "AlignIQ Clinics",
+              name: " Ajay S.",
+              company: "AlignIQ Clinics",
               text: "The AI does follow-ups better than our staff ever could. It’s like hiring a superstar receptionist.",
               photo: "/people/ajay.jpg"
             },
             {
-              name: "Dr. Tanya R.",
-              clinic: "BrightOral Group",
-              text: "Setup was fast, support was great, and patients immediately noticed the difference.",
+              name: " Tanya R.",
+              company: "BrightOral Group",
+              text: "Setup was fast, support was great, and clients immediately noticed the difference.",
               photo: "/people/tanya.jpg"
             }
           ].map((t, idx) => (
@@ -39,7 +39,7 @@ const DetailsSection = () => {
                 className="w-14 h-14 rounded-full object-cover mb-3"
               />
               <p className="font-semibold">{t.name}</p>
-              <p className="text-sm text-gray-500 mb-3">{t.clinic}</p>
+              <p className="text-sm text-gray-500 mb-3">{t.company}</p>
               <p className="text-sm text-gray-700 italic mb-3 max-w-xs">"{t.text}"</p>
               <div className="flex justify-center">
                 {[...Array(5)].map((_, i) => (

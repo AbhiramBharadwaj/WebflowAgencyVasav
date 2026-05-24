@@ -26,7 +26,7 @@ const systemHighlights = [
     accent: "We'll Get You Leads",
     titleSuffix: "AGENCY SERVICE.",
     body:
-      "Most agencies blast your DMs with random Instagram leads and disappear. The Wedding Growth System does something different.\n\nWe build a structured couple journey that brings budget-confirmed, date-set, emotionally-ready couples straight to your consultation table.",
+      "Most agencies blast your DMs with random Instagram leads and disappear. The Wedding Growth System does something different.\n\nWe build a structured couple journey that brings budget-confirmed, date-set, emotionally-ready couples straight to your sales consultation.",
     cardTitle: "Random Leads",
     cardNote: "Inbox chaos + price shoppers",
     cardClass: "from-slate-900 via-slate-800 to-blue-900",
@@ -55,49 +55,49 @@ const systemHighlights = [
     cardNote: "Booked consultations, every week.",
     cardClass: "from-slate-900 via-slate-800 to-emerald-900",
     image: systemizedFlowImg,
-    imageAlt: "Systemized flow in clinic",
+    imageAlt: "Systemized flow in company",
   },
 ];
 
 const testimonials = [
   {
     quote:
-      "We struggled for months with random enquiries asking only about cost. After switching to IVF Pipeline System, our calendar finally filled with serious, emotionally ready couples. In the first 30 days alone, we booked 42 high-quality consultations.",
-    name: "Dr. Nivedita Rao",
-    title: "IVF Specialist, Bengaluru",
+      "We struggled for months with random enquiries asking only about cost. After switching to Wedding Growth System, our calendar finally filled with serious, emotionally ready couples. In the first 30 days alone, we booked 42 high-quality consultations.",
+    name: " Nivedita Rao",
+    title: "wedding Specialist, Bangalore",
   },
   {
     quote:
       "The biggest shift was trust. Couples arrived with clarity, confidence, and far fewer doubts. The WhatsApp nurturing system alone improved our show-up rates from 38% to 81%. This is the most reliable appointment engine we've used.",
-    name: "Dr. Kaustubh Patel",
-    title: "Fertility Center Director, Ahmedabad",
+    name: " Kaustubh Patel",
+    title: "Wedding Business Owner, Ahmedabad",
   },
   {
     quote:
-      "We had tried agencies before, but nothing felt structured. IVF Pipeline System changed everything. The funnel built more trust than any ad we've run. We recorded 3x more cycle-start enquiries in our second month.",
-    name: "Dr. Meera Vinay",
+      "We had tried agencies before, but nothing felt structured. Wedding Growth System changed everything. The funnel built more trust than any ad we've run. We recorded 3x more booking enquiries in our second month.",
+    name: " Meera Vinay",
     title: "Senior Embryologist, Mumbai",
   },
   {
     quote:
-      "The quality of consultations went up drastically. These weren't window shoppers — they were couples actively seeking IVF treatment. Our team finally had predictable appointments every week.",
-    name: "Dr. Anil Verma",
-    title: "Fertility Surgeon, Pune",
+      "The quality of consultations went up drastically. These weren't window shoppers — they were couples actively seeking wedding planning package. Our team finally had predictable appointments every week.",
+    name: " Anil Verma",
+    title: "Wedding Consultant, Pune",
   },
 ];
 
 const components = [
   {
     icon: "🎯",
-    title: "Clinic-Specific Patient Targeting",
+    title: "Wedding-Niche Audience Targeting",
     body:
-      "We create treatment-specific campaigns for:\n• IVF cycles\n• IUI treatments\n• Egg freezing\n• Donor programs\n• ICSI procedures\n\nHyper-targeted to couples in your city who are actively searching for fertility solutions right now.",
+      "We create service-specific campaigns for:\n• full wedding planning\n• pre-wedding events\n• destination weddings\n• decor & coordination\n• luxury wedding planning\n\nHyper-targeted to couples in your city who are actively searching for wedding planning services right now.",
   },
   {
     icon: "📄",
     title: "Trust-Building Funnel",
     body:
-      "Done-for-you landing pages tailored for medical psychology and trust-building. No generic templates.\n\nDesigned specifically to:\n• Address fears and concerns\n• Build credibility\n• Pre-qualify based on budget and readiness\n• Guide couples toward booking (not just clicking)",
+      "Done-for-you landing pages tailored for buyer psychology and trust-building. No generic templates.\n\nDesigned specifically to:\n• Address concerns and objections\n• Build credibility\n• Pre-qualify based on budget and readiness\n• Guide couples toward booking (not just clicking)",
   },
   {
     icon: "💬",
@@ -109,13 +109,13 @@ const components = [
     icon: "✅",
     title: "Pre-Qualification System",
     body:
-      "We filter every patient based on:\n• Budget (can they afford treatment?)\n• Treatment need (right fit for your clinic?)\n• City/location (within your service area?)\n• Medical history (qualified candidate?)\n• Readiness to book (timeline: immediate, 3 months, 6 months?)\n\nOnly serious, qualified couples reach your calendar.",
+      "We filter every lead based on:\n• Budget range (right fit for your packages?)\n• Service need (right fit for your team?)\n• City/location (within your service area?)\n• Event timeline (qualified for your calendar?)\n• Readiness to book (immediate, 3 months, or 6 months)\n\nOnly serious, qualified couples reach your calendar.",
   },
   {
     icon: "📅",
     title: "Appointment Calendar Integration",
     body:
-      "High-intent leads get booked directly into your clinic calendar.\n\nAutomated reminders sent via:\n• WhatsApp (24 hours before)\n• SMS (1 hour before)\n• Email confirmation\n\nReduces no-shows from 50% to 15-20%.",
+      "High-intent leads get booked directly into your calendar.\n\nAutomated reminders sent via:\n• WhatsApp (24 hours before)\n• SMS (1 hour before)\n• Email confirmation\n\nReduces no-shows from 50% to 15-20%.",
   },
   {
     icon: "📊",
@@ -198,12 +198,7 @@ const Index = () => {
   });
   const sheetsWebhookUrl =
     "https://script.google.com/macros/s/AKfycbwOiA3f3FAlMbl66C_y7EoFLgU7B4Ogb8c4E2t5mbF0QdtPlOgf4AVZLEJrEJr85X2s/exec";
-  const isLocalhost =
-    typeof window !== "undefined" &&
-    (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1");
-  const webhookUrl = isLocalhost
-    ? "https://n8n.autonetlabs.com/webhook/lead-notify"
-    : "/api/lead";
+  const webhookUrl = import.meta.env.VITE_LEAD_WEBHOOK_URL || "/api/lead";
   console.log("Webhook env:", webhookUrl);
 
   useEffect(() => {
@@ -336,7 +331,9 @@ const Index = () => {
                 <span className="block">wedding enquiries</span>
                 <span className="block">per month</span>
                 <span className="block">with our proven</span>
-                <span className="block sm:whitespace-nowrap editorial-marker"> Wedding Growth System™</span>
+                <span className="block sm:whitespace-nowrap">
+                  <span className="editorial-marker">Wedding Growth System™</span>
+                </span>
               </h1>
 
               <p className="handwritten text-xl font-semibold text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.45)] sm:text-2xl"></p>
@@ -526,9 +523,9 @@ const Index = () => {
 
         {/* <section className="bg-gradient-to-br from-[#0B1534] via-[#0E1F50] to-[#0B3B98] py-16 text-white">
           <div className="mx-auto max-w-6xl px-4">
-            <h2 className="text-center text-3xl font-bold sm:text-4xl">Real IVF Clinics. Real Results.</h2>
+            <h2 className="text-center text-3xl font-bold sm:text-4xl">Real wedding Clinics. Real Results.</h2>
             <p className="mt-3 text-center text-base text-slate-200">
-              Hear directly from IVF clinic leaders using the IVF Pipeline System.
+              Hear directly from wedding planning company leaders using the Wedding Growth System.
             </p>
             <div className="mt-10 grid gap-6 md:grid-cols-2">
               {testimonials.map((item) => (

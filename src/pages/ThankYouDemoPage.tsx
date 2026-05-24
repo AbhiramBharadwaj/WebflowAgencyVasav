@@ -20,7 +20,7 @@ const ThankYouDemoPage = () => {
               <div className="text-xs font-semibold uppercase tracking-[0.3em] text-white/50">Meeting Details</div>
               <div className="mt-4 space-y-2">
                 <p>
-                  <span className="font-semibold text-white/90">What:</span> The IVF Pipeline System - 30 Min between autonetlabs and Vinay Bagwe
+                  <span className="font-semibold text-white/90">What:</span> The Wedding Growth System - 30 Min between autonetlabs and Vinay Bagwe
                 </p>
                 <p>
                   <span className="font-semibold text-white/90">When:</span> Wednesday, January 14, 2026 • 5:00 PM - 5:30 PM (India Standard Time)
@@ -41,7 +41,7 @@ const ThankYouDemoPage = () => {
               <div className="text-xs font-semibold uppercase tracking-[0.3em] text-white/50">Clinic Details</div>
               <div className="mt-4 space-y-2">
                 <p><span className="font-semibold text-white/90">Clinic:</span> Mahavir hospital</p>
-                <p><span className="font-semibold text-white/90">City:</span> Banglore</p>
+                <p><span className="font-semibold text-white/90">City:</span> Bangalore</p>
               </div>
             </div>
           </div>
