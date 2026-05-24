@@ -1,18 +1,38 @@
 import React, { useEffect } from "react";
 import Cal, { getCalApi } from "@calcom/embed-react";
+import { useNavigate } from "react-router-dom";
 
 const Book = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
+    let calApi: any;
+    const handleBookingSuccess = () => {
+      navigate("/thank-you");
+    };
+
     (async function () {
-      const cal = await getCalApi({ namespace: "the-wedding-growth-system-30-min" });
-      cal("ui", {
+      calApi = await getCalApi({ namespace: "the-wedding-growth-system-30-min" });
+      calApi("ui", {
         theme: "light",
         cssVarsPerTheme: { dark: { "cal-brand": "#ffdd00" } },
         hideEventTypeDetails: false,
         layout: "month_view",
       });
+      calApi("on", {
+        action: "bookingSuccessfulV2",
+        callback: handleBookingSuccess,
+      });
     })();
-  }, []);
+
+    return () => {
+      if (!calApi) return;
+      calApi("off", {
+        action: "bookingSuccessfulV2",
+        callback: handleBookingSuccess,
+      });
+    };
+  }, [navigate]);
 
   return (
     <div className="min-h-screen bg-slate-50 px-4 py-10 text-slate-900">
