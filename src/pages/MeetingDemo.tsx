@@ -6,20 +6,20 @@ import systemizedFlowImg from "@/gallery/SystemizedFlow.jpeg";
 
 const realityPoints = [
   "Months or years of trying without success",
-  "Uncertainty about wedding, event planning, or next steps",
+  "Uncertainty about Webflow, event planning, or next steps",
   "Emotional stress and feeling alone in the process",
   "Concerns about cost and booking consistency",
   "Fear of pricing or timelines",
-  "Need for a trusted wedding growth specialist to guide you",
+  "Need for a trusted Webflow growth specialist to guide you",
 ];
 
 const systemHighlights = [
   {
     titlePrefix: "PERSONALIZED",
-    accent: "wedding CARE",
+    accent: "Webflow CARE",
     titleSuffix: "FOR EVERY COUPLE.",
     body:
-      "At Wedding Growth, Growth Strategist designs protocols based on your business context, age, and goals.\n\nExpect clear guidance, transparent options, and a plan you understand.",
+      "At Webflow Growth, Growth Strategist designs protocols based on your business context, age, and goals.\n\nExpect clear guidance, transparent options, and a plan you understand.",
     cardTitle: "Personalized Protocols",
     cardNote: "Tailored for your journey.",
     cardClass: "from-slate-900 via-slate-800 to-blue-900",
@@ -31,12 +31,12 @@ const systemHighlights = [
     accent: "LAB TECHNOLOGY",
     titleSuffix: "WITH ETHICAL PRACTICE.",
     body:
-      "We use modern wedding techniques such as luxury planning, PGT, and blastocyst culture while prioritizing safety, comfort, and transparency.",
+      "We use modern Webflow techniques such as luxury planning, PGT, and blastocyst culture while prioritizing safety, comfort, and transparency.",
     cardTitle: "Advanced Lab",
     cardNote: "Modern, careful, precise.",
     cardClass: "from-slate-900 via-indigo-900 to-slate-900",
     image: waitingResultsImg,
-    imageAlt: "Advanced wedding workflow care",
+    imageAlt: "Advanced Webflow workflow care",
   },
   {
     titlePrefix: "COMPASSIONATE",
@@ -67,7 +67,7 @@ const testimonials = [
   },
   {
     quote:
-      "We were worried about cost and services, but the transparency made everything easier. Highly recommend Wedding Growth.",
+      "We were worried about cost and services, but the transparency made everything easier. Highly recommend Webflow Growth.",
     name: "Neha & Vikram",
     title: "Bangalore",
   },
@@ -106,7 +106,7 @@ const components = [
   },
   {
     icon: "📅",
-    title: "Modern wedding Lab",
+    title: "Modern Webflow Lab",
     body:
       "State-of-the-art workflow practices including luxury planning, PGT, and blastocyst culture.",
   },
@@ -122,7 +122,7 @@ const qualificationBoxes = [
   {
     title: "Ethical, Patient-First Care",
     body:
-      "We prioritize honesty, safety, and clarity at every step of the wedding process.",
+      "We prioritize honesty, safety, and clarity at every step of the Webflow process.",
   },
   {
     title: "Advanced Technology, Trusted Results",
@@ -132,30 +132,30 @@ const qualificationBoxes = [
   {
     title: "Support Beyond Treatment",
     body:
-      "Emotional strategy and ongoing guidance for couples and couples.",
+      "Emotional strategy and ongoing guidance for clients and clients.",
   },
 ];
 
 const readinessChecks = [
   "You have been trying to conceive for 12+ months without success.",
   "You want a clear pipeline evaluation and next-step guidance.",
-  "You are considering wedding, event planning, or advanced planning packages.",
+  "You are considering Webflow, event planning, or advanced planning packages.",
   "You want transparent costs and realistic success expectations.",
-  "You are ready to meet a trusted wedding growth specialist in Bangalore.",
+  "You are ready to meet a trusted Webflow growth specialist in Bangalore.",
   "You want compassionate support for both partners throughout planning.",
 ];
 
 const faqs = [
   {
-    q: "What is the success rate of wedding at Wedding Growth?",
+    q: "What is the success rate of Webflow at Webflow Growth?",
     a: "Success rates vary by age and business context. During your consultation, Growth Strategist will review your case and share realistic expectations for your situation.",
   },
   {
-    q: "How much does wedding cost?",
-    a: "wedding packages are discussed transparently during consultation. We provide clear cost breakdowns and can share EMI options if needed.",
+    q: "How much does Webflow cost?",
+    a: "Webflow packages are discussed transparently during consultation. We provide clear cost breakdowns and can share EMI options if needed.",
   },
   {
-    q: "Is wedding painful?",
+    q: "Is Webflow painful?",
     a: "Most steps are not painful. Injections may cause mild discomfort, and egg retrieval is done under light sedation.",
   },
   {
@@ -167,12 +167,12 @@ const faqs = [
     a: "Coverage varies by provider. Our team can help you understand what your coverage includes.",
   },
   {
-    q: "What if wedding doesn't work the first time?",
-    a: "Many couples need more than one booking cycle. We review the results, adjust the plan, and guide you on next steps.",
+    q: "What if Webflow doesn't work the first time?",
+    a: "Many clients need more than one booking cycle. We review the results, adjust the plan, and guide you on next steps.",
   },
   {
     q: "Are there side effects?",
-    a: "wedding process steps can cause temporary effects like bloating or mood changes. Serious complications are rare and monitored closely.",
+    a: "Webflow process steps can cause temporary effects like bloating or mood changes. Serious complications are rare and monitored closely.",
   },
   {
     q: "How do we get started?",
@@ -192,7 +192,7 @@ const Index = () => {
   const renderCtaNote = (textClass: string, accentClass: string) => (
     <div className={`mt-3 text-center text-xs ${textClass}`}>
       <div className={`font-semibold ${accentClass}`}>Limited strategy call slots this week.</div>
-      <div>Private, confidential guidance with Wedding Growth in Bangalore.</div>
+      <div>Private, confidential guidance with Webflow Growth in Bangalore.</div>
     </div>
   );
 
@@ -203,15 +203,15 @@ const Index = () => {
           <div className="mx-auto flex min-h-[88vh] max-w-6xl flex-col items-center justify-center gap-6 px-4 py-16 text-center">
             <div className="space-y-6">
               <div className="mx-auto w-fit rounded-full bg-[#365CF5] px-5 py-2 text-sm font-semibold text-white shadow-lg">
-                Wedding Growth, Bangalore
+                Webflow Growth, Bangalore
               </div>
               <h1
                 className="mx-auto max-w-4xl text-4xl font-black leading-tight tracking-tight drop-shadow-[0_6px_18px_rgba(0,0,0,0.45)] sm:text-6xl lg:text-7xl"
                 style={{ textWrap: "balance" }}
               >
-                <span className="block">Struggling to Book More Weddings? You're Not Stuck.</span>
+                <span className="block">Struggling to Book More Webflows? You're Not Stuck.</span>
                 <span className="block">
-                  Wedding Growth in <span className="text-blue-300">Bangalore</span> offers advanced care
+                  Webflow Growth in <span className="text-blue-300">Bangalore</span> offers advanced care
                 </span>
                 <span className="block text-orange-400 sm:whitespace-nowrap">with Growth Strategist.</span>
               </h1>
@@ -262,11 +262,11 @@ const Index = () => {
                 We know the emotional weight of trying month after month. Our team listens, explains, and supports you with care.
               </p>
               <p className="mt-4 text-xl leading-8 text-slate-700">
-                At Wedding Growth, we focus on the human journey — guiding you with clarity, compassion, and trusted medical expertise.
+                At Webflow Growth, we focus on the human journey — guiding you with clarity, compassion, and trusted medical expertise.
               </p>
 
               <div className="mt-8 space-y-3 text-center text-lg leading-8 text-slate-700">
-                <p className="text-lg font-bold text-slate-700">Common concerns we hear from couples:</p>
+                <p className="text-lg font-bold text-slate-700">Common concerns we hear from clients:</p>
                 <div className="mx-auto flex max-w-2xl flex-col items-center gap-2">
                   {realityPoints.map((item) => (
                     <div
@@ -292,7 +292,7 @@ const Index = () => {
             </div>
 
             <div className="mt-12 text-center">
-              <h3 className="text-2xl font-bold uppercase tracking-wide text-slate-800">Wedding Growth Care Approach</h3>
+              <h3 className="text-2xl font-bold uppercase tracking-wide text-slate-800">Webflow Growth Care Approach</h3>
             </div>
 
             <div className="mt-8 space-y-12">
@@ -333,7 +333,7 @@ const Index = () => {
 
             <div className="mt-12 text-center">
               <h3 className="text-2xl font-black text-slate-900 sm:text-3xl">
-                A COMPLETE <span className="text-blue-600">wedding CARE JOURNEY.</span>
+                A COMPLETE <span className="text-blue-600">Webflow CARE JOURNEY.</span>
               </h3>
               <p className="mt-4 text-lg text-slate-700">
                 From the first consultation to ongoing support, we guide you with clarity, compassion, and trusted planning support.
@@ -357,11 +357,11 @@ const Index = () => {
             <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-lg">
               <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
                 <div>
-                  <div className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500">Clinic Details</div>
-                  <h2 className="mt-3 text-3xl font-bold text-slate-900">Wedding Growth — Bangalore</h2>
+                  <div className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500">Business Details</div>
+                  <h2 className="mt-3 text-3xl font-bold text-slate-900">Webflow Growth — Bangalore</h2>
                   <div className="mt-4 space-y-3 text-base text-slate-700">
                     <div>
-                      <div>Wedding Growth</div>
+                      <div>Webflow Growth</div>
                     </div>
                     <div>
                       <div>Bangalore</div>
@@ -385,7 +385,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="rounded-2xl border border-dashed border-slate-200 bg-slate-50 p-6 text-center text-sm text-slate-500 lg:w-80">
-                  Clinic Logo / Photo Placeholder
+                  Business Logo / Photo Placeholder
                 </div>
               </div>
             </div>
@@ -403,13 +403,13 @@ const Index = () => {
                 Our Promise
               </div>
               <h2 className="mt-4 text-3xl font-bold text-slate-900 sm:text-4xl">
-                Ethical, Advanced, and Patient-Centered wedding Care
+                Ethical, Advanced, and Patient-Centered Webflow Care
               </h2>
               <p className="mt-3 text-lg text-slate-700">
                 We focus on transparency, safety, and compassion for every couple who walks through our doors.
               </p>
               <p className="mt-3 text-base text-slate-600">
-                These care pillars guide how we support you throughout your wedding planning journey:
+                These care pillars guide how we support you throughout your Webflow development journey:
               </p>
             </div>
 
@@ -442,9 +442,9 @@ const Index = () => {
 
         {/* <section className="bg-gradient-to-br from-[#0B1534] via-[#0E1F50] to-[#0B3B98] py-16 text-white">
           <div className="mx-auto max-w-6xl px-4">
-            <h2 className="text-center text-3xl font-bold sm:text-4xl">Real wedding Clinics. Real Results.</h2>
+            <h2 className="text-center text-3xl font-bold sm:text-4xl">Real Webflow Businesss. Real Results.</h2>
             <p className="mt-3 text-center text-base text-slate-200">
-              Hear directly from couples who found support at Wedding Growth.
+              Hear directly from clients who found support at Webflow Growth.
             </p>
             <div className="mt-10 grid gap-6 md:grid-cols-2">
               {testimonials.map((item) => (
@@ -475,7 +475,7 @@ const Index = () => {
               You May Be Ready <span className="text-blue-600">If…</span>
             </h2>
             <p className="mt-3 text-center text-lg text-slate-700 sm:text-xl">
-              These signs can help you decide whether it's the right time to speak with a wedding growth specialist.
+              These signs can help you decide whether it's the right time to speak with a Webflow growth specialist.
             </p>
             <div className="mx-auto mt-10 grid max-w-4xl gap-4 md:grid-cols-2">
               {readinessChecks.map((item, idx) => (
@@ -539,7 +539,7 @@ const Index = () => {
           <div className="mx-auto max-w-5xl px-4 text-center">
             <h2 className="text-4xl font-bold sm:text-5xl">You're One Step Away From Starting Your Family</h2>
             <p className="mt-4 text-xl text-slate-100">
-              At Wedding Growth, we guide you with clarity, compassion, and proven care so you can move forward with confidence.
+              At Webflow Growth, we guide you with clarity, compassion, and proven care so you can move forward with confidence.
             </p>
             <div className="mt-8 flex flex-col items-center gap-3">
               <button

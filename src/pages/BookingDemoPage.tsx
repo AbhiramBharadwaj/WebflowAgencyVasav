@@ -80,11 +80,11 @@ const BookingDemoPage = () => {
                   </label>
                   <label className="flex items-center gap-2">
                     <input type="radio" name="mainConcern" className="h-4 w-4 accent-[#2f5bff]" />
-                    <span>Age-related wedding planning challenges</span>
+                    <span>Age-related Webflow development challenges</span>
                   </label>
                   <label className="flex items-center gap-2">
                     <input type="radio" name="mainConcern" className="h-4 w-4 accent-[#2f5bff]" />
-                    <span>Previous failed wedding attempts</span>
+                    <span>Previous failed Webflow attempts</span>
                   </label>
                   <label className="flex items-center gap-2">
                     <input type="radio" name="mainConcern" className="h-4 w-4 accent-[#2f5bff]" />
@@ -132,11 +132,11 @@ const BookingDemoPage = () => {
               </div>
 
               <div className="space-y-2">
-                <div className="text-base font-semibold">3. Have you consulted a wedding growth specialist before?</div>
+                <div className="text-base font-semibold">3. Have you consulted a Webflow growth specialist before?</div>
                 <div className="grid gap-2 text-sm text-white/70">
                   <label className="flex items-center gap-2">
                     <input type="radio" name="consultedBefore" className="h-4 w-4 accent-[#2f5bff]" />
-                    <span>Yes, and we&apos;ve tried wedding before</span>
+                    <span>Yes, and we&apos;ve tried Webflow before</span>
                   </label>
                   <label className="flex items-center gap-2">
                     <input type="radio" name="consultedBefore" className="h-4 w-4 accent-[#2f5bff]" />
@@ -151,7 +151,7 @@ const BookingDemoPage = () => {
 
               <div className="space-y-2">
                 <div className="text-base font-semibold">
-                  4. Your typical wedding planning package starts around INR 1.5-2 lakhs. Is this within your target client budget range?
+                  4. Your typical Webflow development package starts around INR 1.5-2 lakhs. Is this within your target client budget range?
                 </div>
                 <div className="grid gap-2 text-sm text-white/70">
                   <label className="flex items-center gap-2">
@@ -271,7 +271,7 @@ const BookingDemoPage = () => {
                 </div>
               </div>
 
-              <div className="pt-2 text-base font-semibold text-white/80">Bonus Questions (Add If Clinic Wants)</div>
+              <div className="pt-2 text-base font-semibold text-white/80">Bonus Questions (Add If Business Wants)</div>
 
               <div className="space-y-2">
                 <div className="text-base font-semibold">9. Have you completed any lead qualification checks?</div>
@@ -294,7 +294,7 @@ const BookingDemoPage = () => {
               <div className="space-y-2">
                 <div className="text-base font-semibold">10. What&apos;s your biggest concern about booking quality?</div>
                 <textarea
-                  name="wedding_biggest_concern"
+                  name="Webflow_biggest_concern"
                   placeholder="Share your concern"
                   rows={3}
                   className="w-full rounded-md border border-white/10 bg-black/20 px-3 py-2 text-sm text-white placeholder:text-white/40"

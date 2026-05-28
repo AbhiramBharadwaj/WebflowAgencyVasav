@@ -20,7 +20,7 @@ const ThankYouDemoPage = () => {
               <div className="text-xs font-semibold uppercase tracking-[0.3em] text-white/50">Meeting Details</div>
               <div className="mt-4 space-y-2">
                 <p>
-                  <span className="font-semibold text-white/90">What:</span> The Wedding Growth System - 30 Min between autonetlabs and Vinay Bagwe
+                  <span className="font-semibold text-white/90">What:</span> The Webflow Launch System - 30 Min between autonetlabs and Vinay Bagwe
                 </p>
                 <p>
                   <span className="font-semibold text-white/90">When:</span> Wednesday, January 14, 2026 • 5:00 PM - 5:30 PM (India Standard Time)
@@ -38,9 +38,9 @@ const ThankYouDemoPage = () => {
             </div>
 
             <div className="rounded-2xl border border-white/10 bg-black/20 p-6 text-sm text-white/80">
-              <div className="text-xs font-semibold uppercase tracking-[0.3em] text-white/50">Clinic Details</div>
+              <div className="text-xs font-semibold uppercase tracking-[0.3em] text-white/50">Business Details</div>
               <div className="mt-4 space-y-2">
-                <p><span className="font-semibold text-white/90">Clinic:</span> Mahavir hospital</p>
+                <p><span className="font-semibold text-white/90">Business:</span> Mahavir hospital</p>
                 <p><span className="font-semibold text-white/90">City:</span> Bangalore</p>
               </div>
             </div>

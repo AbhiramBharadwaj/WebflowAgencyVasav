@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Resource = () => {
-  const shareUrl = "https://example.com/wedding-growth-system";
+  const shareUrl = "https://example.com/Webflow-growth-system";
   const [copied, setCopied] = useState(false);
-  const emailTemplate = `Hi [Owner Name],\n\nI came across a client acquisition system specifically built for wedding planning companies. They guarantee 20-30+ qualified enquiry bookings per month using a complete appointment pipeline.\n\nThought it might be worth exploring for our company.\n\nHere's the link: ${shareUrl}`;
+  const emailTemplate = `Hi [Owner Name],\n\nI came across a client acquisition system specifically built for Webflow development companies. They guarantee 20-30+ qualified enquiry bookings per month using a complete appointment pipeline.\n\nThought it might be worth exploring for our company.\n\nHere's the link: ${shareUrl}`;
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text).then(() => {
@@ -20,7 +20,7 @@ const Resource = () => {
           <Link to="/" className="text-sm font-semibold text-[#0B3B98] hover:underline">
             ← Back to landing page
           </Link>
-          <div className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm">Wedding Growth System™</div>
+          <div className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm">Webflow Launch System™</div>
         </div>
 
         <div className="rounded-2xl bg-white p-8 shadow-sm">
@@ -36,10 +36,10 @@ const Resource = () => {
             <div className="rounded-xl border border-slate-200 bg-slate-50 p-6">
               <div className="text-sm font-semibold uppercase tracking-[0.08em] text-[#0B3B98]">Offer 1: Lead Magnet</div>
               <h2 className="mt-2 text-xl font-bold">Download Our Free Guide:</h2>
-              <p className="mt-2 text-slate-700">"The 7-Step Wedding Business Growth Checklist"</p>
+              <p className="mt-2 text-slate-700">"The 7-Step Webflow Business Growth Checklist"</p>
               <p className="mt-2 text-slate-600">How to audit your enquiry pipeline and identify exactly where qualified leads are dropping off</p>
               <button
-                onClick={() => copyToClipboard("https://example.com/7-step-wedding-growth-checklist.pdf")}
+                onClick={() => copyToClipboard("https://example.com/7-step-Webflow-growth-checklist.pdf")}
                 className="mt-4 w-full rounded-lg bg-[#0066FF] px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-[#0a58d8]"
               >
                 Download Free PDF (copy link)

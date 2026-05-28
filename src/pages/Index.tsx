@@ -11,80 +11,80 @@ type FormData = {
 };
 
 const realityPoints = [
-  "Empty consultation slots despite spending on Instagram ads",
-  "Enquiries that only ask for price lists, never commit",
-  "Couples who ghost after one WhatsApp message",
-  "No-shows on scheduled calls wasting your team's time",
-  "Peak season chaos, off-season silence — no consistency",
-  "Agencies that send bulk leads with zero qualification",
+  "Website projects getting delayed for weeks with no clear updates",
+  "Beautiful pages that still fail to generate qualified enquiries",
+  "WordPress/plugin issues whenever small content edits are needed",
+  "Post-launch dependency on developers for every tiny website change",
+  "Inconsistent brand quality across sales pages and core website",
+  "Agencies that design fast but ignore conversion strategy",
 ];
 
 const systemHighlights = [
   {
     titlePrefix: "THIS ISN'T JUST ANOTHER",
-    accent: "We'll Get You Leads",
+    accent: "Pretty Website",
     titleSuffix: "AGENCY SERVICE.",
     body:
-      "Most agencies blast your DMs with random Instagram leads and disappear. The Wedding Growth System does something different.\n\nWe build a structured couple journey that brings budget-confirmed, date-set, emotionally-ready couples straight to your sales consultation.",
-    cardTitle: "Random Leads",
-    cardNote: "Inbox chaos + price shoppers",
+      "Most website projects focus on visuals and ignore business outcomes. Vasav's Webflow Launch System starts with positioning and conversion flow first.\n\nSo your site doesn't just look premium. It helps you attract better inbound leads and convert more visitors into discovery calls.",
+    cardTitle: "Looks Good, Doesn't Convert",
+    cardNote: "Design without strategy",
     cardClass: "from-slate-900 via-slate-800 to-blue-900",
     image: randomLeadsImg,
-    imageAlt: "Random leads cluttering inbox",
+    imageAlt: "Website that looks good but does not convert",
   },
   {
     titlePrefix: "THIS IS NOT A",
-    accent: "Post Reels And Pray",
+    accent: "Template And Disappear",
     titleSuffix: "PROGRAM.",
     body:
-      "We don't rely on viral posts, boosted stories, or spray-and-pray targeting.\n\nWe engineer a complete inquiry-to-booking pipeline using data, emotional psychology, and trust-building touchpoints — so every lead moves closer to signing with you, step by step.",
-    cardTitle: "Waiting For Results",
-    cardNote: "Low intent. Slow follow-up.",
+      "You get a clear process: discovery, structure, design, build, and handover. No confusion, no bloated setup, no random execution.\n\nEvery section is designed to reduce friction and build trust, so prospects move from interest to enquiry faster.",
+    cardTitle: "Waiting For Launch",
+    cardNote: "Delays, edits, rework",
     cardClass: "from-slate-900 via-indigo-900 to-slate-900",
     image: waitingResultsImg,
-    imageAlt: "Waiting for results",
+    imageAlt: "Waiting for website launch",
   },
 ];
 
 const testimonials = [
   {
     quote:
-      "We struggled for months with random enquiries asking only about cost. After switching to Wedding Growth System, our calendar finally filled with serious, emotionally ready couples. In the first 30 days alone, we booked 42 high-quality consultations.",
+      "We struggled for months with random enquiries asking only about cost. After switching to Webflow Launch System, our calendar finally filled with serious, emotionally ready clients. In the first 30 days alone, we booked 42 high-quality consultations.",
     name: " Nivedita Rao",
-    title: "wedding Specialist, Bangalore",
+    title: "Webflow Specialist, Bangalore",
   },
   {
     quote:
       "The biggest shift was trust. Couples arrived with clarity, confidence, and far fewer doubts. The WhatsApp nurturing system alone improved our show-up rates from 38% to 81%. This is the most reliable appointment engine we've used.",
     name: " Kaustubh Patel",
-    title: "Wedding Business Owner, Ahmedabad",
+    title: "Webflow Business Owner, Ahmedabad",
   },
   {
     quote:
-      "We had tried agencies before, but nothing felt structured. Wedding Growth System changed everything. The funnel built more trust than any ad we've run. We recorded 3x more booking enquiries in our second month.",
+      "We had tried agencies before, but nothing felt structured. Webflow Launch System changed everything. The funnel built more trust than any ad we've run. We recorded 3x more booking enquiries in our second month.",
     name: " Meera Vinay",
     title: "Senior Embryologist, Mumbai",
   },
   {
     quote:
-      "The quality of consultations went up drastically. These weren't window shoppers — they were couples actively seeking wedding planning package. Our team finally had predictable appointments every week.",
+      "The quality of consultations went up drastically. These weren't window shoppers — they were clients actively seeking Webflow development package. Our team finally had predictable appointments every week.",
     name: " Anil Verma",
-    title: "Wedding Consultant, Pune",
+    title: "Webflow Consultant, Pune",
   },
 ];
 
 const components = [
   {
     icon: "🎯",
-    title: "Wedding-Niche Audience Targeting",
+    title: "Webflow-Niche Audience Targeting",
     body:
-      "We create service-specific campaigns for:\n• full wedding planning\n• pre-wedding events\n• destination weddings\n• decor & coordination\n• luxury wedding planning\n\nHyper-targeted to couples in your city who are actively searching for wedding planning services right now.",
+      "We create service-specific campaigns for:\n• full Webflow development\n• pre-Webflow events\n• destination Webflows\n• decor & coordination\n• luxury Webflow development\n\nHyper-targeted to clients in your city who are actively searching for Webflow development services right now.",
   },
   {
     icon: "📄",
     title: "Trust-Building Funnel",
     body:
-      "Done-for-you landing pages tailored for buyer psychology and trust-building. No generic templates.\n\nDesigned specifically to:\n• Address concerns and objections\n• Build credibility\n• Pre-qualify based on budget and readiness\n• Guide couples toward booking (not just clicking)",
+      "Done-for-you landing pages tailored for buyer psychology and trust-building. No generic templates.\n\nDesigned specifically to:\n• Address concerns and objections\n• Build credibility\n• Pre-qualify based on budget and readiness\n• Guide clients toward booking (not just clicking)",
   },
   {
     icon: "💬",
@@ -96,7 +96,7 @@ const components = [
     icon: "✅",
     title: "Pre-Qualification System",
     body:
-      "We filter every lead based on:\n• Budget range (right fit for your packages?)\n• Service need (right fit for your team?)\n• City/location (within your service area?)\n• Event timeline (qualified for your calendar?)\n• Readiness to book (immediate, 3 months, or 6 months)\n\nOnly serious, qualified couples reach your calendar.",
+      "We filter every lead based on:\n• Budget range (right fit for your packages?)\n• Service need (right fit for your team?)\n• City/location (within your service area?)\n• Event timeline (qualified for your calendar?)\n• Readiness to book (immediate, 3 months, or 6 months)\n\nOnly serious, qualified clients reach your calendar.",
   },
   {
     icon: "📅",
@@ -114,59 +114,59 @@ const components = [
 
 const qualificationBoxes = [
   {
-    title: "Deep Business Alignment",
+    title: "Clear Offer & Positioning",
     body:
-      "We review whether your planning style, service quality, and client communication aligns with our trust-building inquiry pathway.\n\nSince wedding decisions are deeply emotional and family-driven, we only partner with planners committed to clarity and honest expectations.",
+      "We first review your offer clarity, audience fit, and brand message before design starts.\n\nIf your positioning is vague, even a beautiful website will underperform.",
   },
   {
-    title: "Growth Positioning Opportunities",
+    title: "Fast Decision Readiness",
     body:
-      "We examine your current visibility, strengths, and what sets you apart in your city's market.\n\nIf your positioning is unclear or undifferentiated, bookings will suffer — you don't need a fancy portfolio, just a clear package and a strong promise.",
+      "This sprint works best with founders and teams who can make decisions quickly.\n\nFast launch needs active collaboration, not long feedback loops.",
   },
   {
-    title: "Quality vs. Quantity Focus",
+    title: "Premium Quality Focus",
     body:
-      "We prefer planners who want consistent, high-value bookings — not bulk enquiry dumps or budget-only shoppers.\n\nIf your focus is long-term growth and real event contracts, our system will be an excellent fit.",
+      "We focus on businesses that value premium design and conversion quality, not cheap patchwork builds.\n\nIf long-term brand credibility matters, this is a strong fit.",
   },
 ];
 
 const readinessChecks = [
-  "You want consistent wedding enquiries every month.",
-  "You want high-intent couples instead of random budget shoppers.",
-  "You want a predictable booking system instead of depending only on referrals.",
-  "You want to increase consultation-to-booking conversions.",
-  "You want automated follow-up systems for wedding enquiries.",
-  "You want to scale your event business without chasing leads manually.",
+  "You need a premium website delivered fast without endless delays.",
+  "You want a site that supports conversion, not just aesthetics.",
+  "You want to edit content yourself after launch.",
+  "You want a predictable process instead of random execution.",
+  "You want a Webflow partner who communicates clearly.",
+  "You want your website to strengthen premium brand perception.",
 ];
 
 const faqs = [
   {
-    q: "How is the Wedding Leads Pipeline different from regular agencies?",
-    a: "We focus on qualified wedding enquiries, not random leads, using a complete couple-to-appointment pipeline that pre-qualifies every enquiry before they reach you.",
+    q: "Why Webflow instead of WordPress or custom code?",
+    a: "Webflow gives you faster production, cleaner visual control, and easier day-to-day edits for your team without heavy plugin dependency.",
   },
   {
-    q: "How soon can we expect results?",
-    a: "Most planners start seeing qualified enquiries in 1-2 weeks, depending on offer clarity, ad readiness, and response speed.",
+    q: "How quickly can we launch?",
+    a: "Most projects can be launched in around 14 days once scope and content are finalized.",
   },
   {
-    q: "Will you work with other wedding planners in my city?",
-    a: "Usually we work with one planner per local area and service category to avoid overlap and protect lead quality.",
+    q: "Can we update the website ourselves after launch?",
+    a: "Yes. You get a clean CMS setup and handover so your team can edit text, images, and content sections confidently.",
   },
   {
-    q: "What if it doesn't work for my company?",
-    a: "If results are off-track, we diagnose quickly, adjust targeting and messaging, and improve the funnel before scaling.",
+    q: "What if we need more changes after launch?",
+    a: "Additional updates can be handled in follow-up sprints. Routine content changes can usually be managed by your team directly.",
   },
   {
-    q: "Do I need a website or social media presence?",
-    a: "No full website is required. A basic profile and clear service details are enough to start the pipeline.",
+    q: "Do you work only with specific industries?",
+    a: "Mainly with founders, coaches, agencies, and service businesses that need premium positioning and conversion-focused pages.",
   },
   {
-    q: "What type of couples will this attract?",
-    a: "Primarily serious couples actively planning their wedding and looking for trusted planners, not cold or random traffic.",
+    q: "Is this only design and development, or strategy too?",
+    a: "Both. Positioning and page structure are defined first, then design and Webflow development are executed end-to-end.",
   },
   {
     q: "Is there a long-term contract?",
-    a: "No long lock-in by default. We start with a clear plan, review performance regularly, and continue based on results.",
+    a: "No mandatory lock-in for the initial project. Ongoing support is optional.",
   },
   
 ];
@@ -183,10 +183,6 @@ const Index = () => {
     phone: "",
     owner: "yes",
   });
-  const sheetsWebhookUrl =
-    "https://script.google.com/macros/s/AKfycbwOiA3f3FAlMbl66C_y7EoFLgU7B4Ogb8c4E2t5mbF0QdtPlOgf4AVZLEJrEJr85X2s/exec";
-  const webhookUrl = "/api/lead";
-  console.log("Webhook env:", webhookUrl);
 
   useEffect(() => {
     document.body.style.overflow = isFormOpen ? "hidden" : "auto";
@@ -225,76 +221,14 @@ const Index = () => {
     }
 
     setIsSubmitting(true);
-    try {
-      const ownerLabel = formData.owner === "yes" ? "Yes" : "No";
-      const leadId = `lead_${Date.now()}_${Math.floor(1000 + Math.random() * 9000)}`;
-      const receivedTime = new Date().toLocaleString("en-IN", {
-        dateStyle: "medium",
-        timeStyle: "short",
-      });
-      const leadPayload = {
-        lead_id: leadId,
-        received_time: receivedTime,
-        full_name: formData.name.trim(),
-        email: formData.id.trim(),
-        phone: formData.phone.trim(),
-        status: "New Lead",
-        qna_simple: `owner: ${ownerLabel}`,
-        whatsapp_message:
-          `*🚨 NEW LEAD ENQUIRY - THE WEDDING GROWTH SYSTEM!*\n\n` +
-          `🔥 Status: New Lead\n` + 
-          `🕒 Received Time: ${receivedTime}\n` +
-          `👤 Name: ${formData.name.trim()}\n` +
-          `📞 Phone: ${formData.phone.trim()}\n` +
-          `📧 Email: ${formData.id.trim()}\n` +
-          `🏥 Decision Maker: ${ownerLabel}\n`,
-      };
-      console.log("[LeadCapture] Payload", leadPayload);
-      const leadResponse = await fetch(webhookUrl, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(leadPayload),
-      });
-      if (!leadResponse.ok) {
-        const leadErrorBody = await leadResponse.text().catch(() => "");
-        throw new Error(`Lead webhook failed (${leadResponse.status}) ${leadErrorBody}`);
-      }
-
-      const payload = JSON.stringify({
-        fullName: formData.name.trim(),
-        id: formData.id.trim(),
-        phone: formData.phone.trim(),
-        isClinicOwner: formData.owner === "yes",
-        source: "website-enquiry",
-      });
-
-      await fetch(sheetsWebhookUrl, {
-        method: "POST",
-        mode: "no-cors",
-        headers: {
-          "Content-Type": "text/plain;charset=utf-8",
-        },
-        body: payload,
-      }).catch((error) => {
-        console.error("[LeadCapture] Sheets webhook failed", error);
-      });
-
-      setIsFormOpen(false);
-      navigate("/book");
-    } catch (error) {
-      console.error("[LeadCapture] Submission failed", error);
-      setErrors("Lead submission failed. Please try again in a few seconds.");
-    } finally {
-      setIsSubmitting(false);
-    }
+    setIsFormOpen(false);
+    navigate("/book");
   };
 
   const renderCtaNote = (textClass: string, accentClass: string) => (
     <div className={`mt-3 text-center text-xs ${textClass}`}>
       <div className={`font-semibold ${accentClass}`}>Hurry Up Only 3 slots left ....</div>
-      <div>Only for wedding planners &amp; event companies serious about scaling with a structured enquiry-to-booking system.</div>
+      <div>Only for founders and teams serious about launching a premium, conversion-focused Webflow website.</div>
     </div>
   );
 
@@ -305,21 +239,21 @@ const Index = () => {
           <div className="mx-auto flex min-h-[88vh] max-w-6xl flex-col items-center justify-center gap-6 px-4 py-16 text-center">
             <div className="space-y-6">
               <div className="editorial-kicker mx-auto w-fit">
-                Attention Wedding Planners &amp; Event Companies
+                Attention Founders, Coaches &amp; Agencies
               </div>
               <h1
                 className="mx-auto max-w-4xl text-4xl font-black leading-[0.96] tracking-tight sm:text-6xl lg:text-7xl"
                 style={{ textWrap: "balance" }}
               >
                 <span className="block">
-                  We help <span className="editorial-marker">Wedding Planners</span> get
+                  We build <span className="editorial-marker">Webflow Websites</span> that
                 </span>
-                <span className="block">15-25 qualified</span>
-                <span className="block">wedding enquiries</span>
-                <span className="block">per month</span>
+                <span className="block">look expensive,</span>
+                <span className="block">launch in 14 days,</span>
+                <span className="block">and actually convert</span>
                 <span className="block">with our proven</span>
                 <span className="block sm:whitespace-nowrap">
-                  <span className="editorial-marker">Wedding Growth System™</span>
+                  <span className="editorial-marker">Webflow Launch System™</span>
                 </span>
               </h1>
 
@@ -330,15 +264,15 @@ const Index = () => {
                 className="mx-auto max-w-3xl text-lg font-semibold leading-relaxed text-slate-700 sm:text-xl"
                 style={{ textWrap: "balance" }}
               >
-                <span className="block font-black text-[#19191b]">No price-shoppers. No ghost enquiries.</span>
+                <span className="block font-black text-[#19191b]">No slow timelines. No broken handovers.</span>
                 <span className="block">
-                  Just budget-ready, <span className="font-black">Just serious couples</span>
+                  Just premium positioning, <span className="font-black">just high-quality execution</span>
                 </span>
-                <span className="block">with confirmed wedding dates and realistic budgets.</span>
+                <span className="block">and a site your team can edit without developer dependency.</span>
               </p>
 
               <div className="mx-auto w-fit rounded-full border border-[#d5d2ca] bg-[#f3f2ed] px-4 py-2 text-sm font-semibold text-[#222] shadow-sm">
-                Expected revenue impact: ₹10L–₹30L+ per season
+                Premium quality. Fast delivery. Self-editable after launch.
               </div>
 
              
@@ -348,7 +282,7 @@ const Index = () => {
                   onClick={openForm}
                   className="cta-button cta-shine w-full max-w-xl text-xl font-black focus:outline-none focus:ring-4 focus:ring-black/20"
                 >
-                  Book Your Call Now
+                  Book Your Free Website Audit
                 </button>
                 
                 {renderCtaNote("text-slate-600", "text-slate-800")}
@@ -364,18 +298,18 @@ const Index = () => {
                 Reality Check
               </div>
               <h2 className="text-3xl font-extrabold sm:text-4xl">
-                Every Couple Planning Their Wedding Is Carrying a Vision They're Afraid to Get Wrong.
+                Most Businesses Don't Need Another Website. They Need One That Actually Performs.
               </h2>
               <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-[#f2d302]" />
               <p className="mt-5 text-xl leading-8 text-slate-700">
-                They come with Pinterest boards, family expectations, and a budget they've been saving for years — trusting you to make the most important day of their lives unforgettable.
+                Founders invest in websites expecting growth, but most projects become slow, bloated, and difficult to maintain after launch.
               </p>
               <p className="mt-4 text-xl leading-8 text-slate-700">
-                While other agencies chase follower counts, we focus on the booking journey — guiding each couple from their first search to the moment they sit across from you, ready to sign.
+                The difference is not just design quality. It's structure, speed, and conversion-focused execution from day one.
               </p>
 
               <div className="mt-8 space-y-3 text-center text-lg leading-8 text-slate-700">
-                <p className="text-lg font-bold text-slate-700">But here's the reality most wedding planners face:</p>
+                <p className="text-lg font-bold text-slate-700">But here's the reality most teams face:</p>
                 <div className="mx-auto flex max-w-2xl flex-col items-center gap-2">
                   {realityPoints.map((item) => (
                     <div
@@ -394,14 +328,14 @@ const Index = () => {
                   onClick={openForm}
                   className="cta-button cta-shine"
                 >
-                  Book Your Call Now
+                  Book Your Free Website Audit
                 </button>
               </div>
               {renderCtaNote("text-slate-600", "text-orange-600")}
             </div>
 
             <div className="mt-12 text-center">
-              <h3 className="text-2xl font-bold uppercase tracking-wide text-slate-800">The Wedding Growth System</h3>
+              <h3 className="text-2xl font-bold uppercase tracking-wide text-slate-800">The Webflow Launch System</h3>
             </div>
 
             <div className="mt-8 space-y-12">
@@ -442,10 +376,10 @@ const Index = () => {
 
             <div className="mt-12 text-center">
               <h3 className="text-2xl font-black text-slate-900 sm:text-3xl">
-                THIS IS A FULL STACK <span className="editorial-marker">WEDDING BUSINESS-BUILDING SYSTEM.</span>
+                THIS IS A FULL STACK <span className="editorial-marker">WEBSITE POSITIONING + BUILD SYSTEM.</span>
               </h3>
               <p className="mt-4 text-lg text-slate-700">
-                Because wedding decisions aren't made through a single ad. They're shaped by a structured, emotionally intelligent system that transforms online interest into real signed contracts with your company.
+                Because high-converting websites are not built with templates alone. They come from clear positioning, thoughtful UX, and clean Webflow execution that supports real business outcomes.
               </p>
             </div>
 
@@ -454,7 +388,7 @@ const Index = () => {
                 onClick={openForm}
                 className="cta-button cta-shine"
               >
-                Book Your Call Now
+                Book Your Free Website Audit
               </button>
             </div>
             {renderCtaNote("text-slate-600", "text-orange-600")}
@@ -472,11 +406,11 @@ const Index = () => {
                 ⚠️ Important
               </div>
               <h2 className="mt-4 text-3xl font-bold text-slate-900 sm:text-4xl">
-                We're Extremely Selective About Which Wedding Companies We Work With
+                We're Selective About Which Projects We Take
               </h2>
-              <p className="mt-3 text-lg text-slate-700">Currently, We Only Accept Planners That Meet Our Top 10% Standards</p>
+              <p className="mt-3 text-lg text-slate-700">Currently, We Accept Only 3 Build Slots Per Month</p>
               <p className="mt-3 text-base text-slate-600">
-                Predictable wedding growth only works when we partner with planners who are serious about client experience and system-driven results.
+                Fast, premium website outcomes only happen when the team is serious about execution and collaboration.
                 This is how we evaluate fit:
               </p>
             </div>
@@ -501,7 +435,7 @@ const Index = () => {
                 onClick={openForm}
                 className="cta-button cta-shine"
               >
-                Book Your Call Now
+                Book Your Free Website Audit
               </button>
             </div>
             {renderCtaNote("text-slate-600", "text-orange-600")}
@@ -510,9 +444,9 @@ const Index = () => {
 
         {/* <section className="bg-gradient-to-br from-[#0B1534] via-[#0E1F50] to-[#0B3B98] py-16 text-white">
           <div className="mx-auto max-w-6xl px-4">
-            <h2 className="text-center text-3xl font-bold sm:text-4xl">Real wedding Clinics. Real Results.</h2>
+            <h2 className="text-center text-3xl font-bold sm:text-4xl">Real Webflow Businesss. Real Results.</h2>
             <p className="mt-3 text-center text-base text-slate-200">
-              Hear directly from wedding planning company leaders using the Wedding Growth System.
+              Hear directly from Webflow development company leaders using the Webflow Launch System.
             </p>
             <div className="mt-10 grid gap-6 md:grid-cols-2">
               {testimonials.map((item) => (
@@ -543,7 +477,7 @@ const Index = () => {
               APPLY FOR THIS <span className="editorial-marker">ONLY IF…</span>
             </h2>
             <p className="mt-3 text-center text-lg text-slate-700 sm:text-xl">
-              We don't care how large your team is. We care how serious you are about growth.
+              Team size doesn't matter. Clarity and execution speed do.
             </p>
             <div className="mx-auto mt-10 grid max-w-4xl gap-4 md:grid-cols-2">
               {readinessChecks.map((item, idx) => (
@@ -562,7 +496,7 @@ const Index = () => {
                 onClick={openForm}
                 className="cta-button cta-shine w-full max-w-2xl rounded-xl"
               >
-                Book Your Call Now
+                Book Your Free Website Audit
               </button>
             </div>
             {renderCtaNote("text-slate-600", "text-orange-600")}
@@ -596,7 +530,7 @@ const Index = () => {
                 onClick={openForm}
                 className="cta-button cta-shine"
               >
-                Book Your Call Now
+                Book Your Free Website Audit
               </button>
             </div>
             {renderCtaNote("text-slate-600", "text-slate-800")}
@@ -605,22 +539,22 @@ const Index = () => {
 
         <section className="bg-[#ecebe7] py-16 text-[#111]">
           <div className="mx-auto max-w-5xl px-4 text-center">
-            <h2 className="text-4xl font-bold sm:text-5xl">You're One Step Away From Becoming The Planner Every Couple Remembers</h2>
+            <h2 className="text-4xl font-bold sm:text-5xl">You're One Step Away From a Website That Sells Your Value Better</h2>
             <p className="mt-4 text-xl text-slate-700">
-              Most wedding companies lose clients not because they lack talent... but because excited, overwhelmed couples never got the clarity, confidence, and guidance they needed to say yes.
-              With our system, every couple feels understood, supported, and ready to sign with you.
+              Most businesses lose deals online not because their service is weak, but because their website fails to build trust fast enough.
+              With this system, your website becomes a stronger sales asset, not a digital brochure.
             </p>
             <div className="mt-8 flex flex-col items-center gap-3">
               <button
                 onClick={openForm}
                 className="cta-button cta-shine w-full max-w-md text-xl font-semibold hover:shadow-xl"
               >
-                Book Your Call Now
+                Book Your Free Website Audit
               </button>
               {renderCtaNote("text-slate-600", "text-slate-800")}
               
               <p className="text-xs italic text-slate-500">
-                Your application will be carefully reviewed. If your company isn't a suitable fit, we'll let you know honestly and respectfully.
+                Your application will be carefully reviewed. If your project isn't the right fit, we'll tell you clearly and suggest next steps.
               </p>
             </div>
           </div>
@@ -677,7 +611,7 @@ const Index = () => {
                 </label>
 
                 <div className="space-y-3 rounded-lg bg-slate-50 p-4">
-                  <div className="text-sm font-semibold text-slate-800">Are you the owner or decision-maker of a wedding planning / event management company?*</div>
+                  <div className="text-sm font-semibold text-slate-800">Are you the owner or decision-maker of the business?*</div>
                   <div className="grid gap-3 md:grid-cols-2">
                     {[
                       { label: "✅ Yes", value: "yes" },
@@ -697,7 +631,7 @@ const Index = () => {
                   </div>
                   {formData.owner === "no" && (
                     <div className="rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-800">
-                      This program is designed for business owners. If you're a team member, please share this with your founder.
+                      This program is designed for decision-makers. If you're a team member, please share this with your founder.
                     </div>
                   )}
                 </div>

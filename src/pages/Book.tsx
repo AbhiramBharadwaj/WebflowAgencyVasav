@@ -12,7 +12,7 @@ const Book = () => {
     };
 
     (async function () {
-      calApi = await getCalApi({ namespace: "the-wedding-growth-system-30-min" });
+      calApi = await getCalApi({ namespace: "webflow-launch-system" });
       calApi("ui", {
         theme: "light",
         cssVarsPerTheme: { dark: { "cal-brand": "#ffdd00" } },
@@ -64,8 +64,8 @@ const Book = () => {
         </div>
         <div className="h-[720px] w-full overflow-hidden rounded-2xl bg-white shadow-sm">
           <Cal
-            namespace="the-wedding-growth-system-30-min"
-            calLink="autonetlabs/the-wedding-growth-system-30-min"
+            namespace="webflow-launch-system"
+            calLink="autonetlabs/webflow-launch-system"
             style={{ width: "100%", height: "100%", overflow: "scroll" }}
             config={{ layout: "month_view", theme: "light" }}
           />

@@ -7,7 +7,7 @@ const Service = () => {
   useEffect(() => {
     if (!showCalendar) return;
     (async function () {
-      const cal = await getCalApi({ namespace: "the-wedding-growth-system-30-min" });
+      const cal = await getCalApi({ namespace: "the-Webflow-growth-system-30-min" });
       cal("ui", {
         cssVarsPerTheme: { dark: { "cal-brand": "#ffe900" } },
         hideEventTypeDetails: false,
@@ -75,7 +75,7 @@ const Service = () => {
             <div className="text-center text-xs text-slate-500">
               Hurry Up Only 3 slots left ....
               <br />
-              Only for wedding planning companies &amp; event companies serious about scaling with a structured enquiry-to-booking system.
+              Only for Webflow development companies &amp; event companies serious about scaling with a structured enquiry-to-booking system.
             </div>
           </div>
         </div>
@@ -83,8 +83,8 @@ const Service = () => {
         {showCalendar && (
           <div className="h-[720px] w-full overflow-hidden rounded-2xl bg-white shadow-sm">
             <Cal
-              namespace="the-wedding-growth-system-30-min"
-              calLink="autonetlabs/the-wedding-growth-system-30-min"
+              namespace="the-Webflow-growth-system-30-min"
+              calLink="autonetlabs/the-Webflow-growth-system-30-min"
               style={{ width: "100%", height: "100%", overflow: "scroll" }}
               config={{ layout: "month_view" }}
             />
